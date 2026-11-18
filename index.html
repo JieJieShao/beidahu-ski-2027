@@ -1,0 +1,2802 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>北大湖的行程，安排得不错。｜杭州外滑方案对比</title>
+<meta name="description" content="2027年1月杭州出发，3人4晚北大湖滑雪方案：套餐每晚2张雪票、zk雪票30/天、民宿200/晚、租车1000/4天全包，总价约12,990，人均4,330，附AA与目的地对比。">
+<meta name="robots" content="noindex,nofollow">
+<style>
+/* =========================================================
+   Hangzhou → Beidahu 2027 / trip dossier
+   Single-page editorial comparison
+   ========================================================= */
+
+:root {
+  --bg: #f3f0e8;
+  --paper: #fbf9f3;
+  --paper-2: #f7f3ea;
+  --ink: #15211e;
+  --ink-soft: #2d3b36;
+  --muted: #65736d;
+  --faint: #8b9790;
+  --line: #d8d3c5;
+  --line-dark: #b9b3a4;
+  --pine: #164b43;
+  --pine-deep: #0c2723;
+  --pine-mid: #1f6b5d;
+  --ice: #b8dfe8;
+  --ice-deep: #7fc4d6;
+  --amber: #c46a12;
+  --amber-soft: #f6e3c6;
+  --red: #b6402d;
+  --red-soft: #f6ded7;
+  --blue: #2d63c9;
+  --blue-soft: #dde7fa;
+  --violet: #6d58a8;
+  --teal: #1c8a78;
+  --shadow-sm: 0 2px 0 rgba(21, 33, 30, .04), 0 8px 24px rgba(21, 33, 30, .05);
+  --shadow-md: 0 24px 70px rgba(21, 33, 30, .10);
+  --radius: 16px;
+  --radius-lg: 24px;
+  --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Source Han Sans SC", sans-serif;
+  --font-serif: "Songti SC", "Noto Serif SC", "Source Han Serif SC", "STSong", "SimSun", Georgia, serif;
+  --font-mono: "SFMono-Regular", "Cascadia Code", "Roboto Mono", Consolas, "Liberation Mono", monospace;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 600px at 92% 12%, rgba(127, 196, 214, .10), transparent 55%),
+    radial-gradient(900px 500px at 4% 42%, rgba(196, 106, 18, .055), transparent 60%),
+    var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--ice); color: var(--pine-deep); }
+
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--pine-mid); }
+
+img, svg { max-width: 100%; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+
+h1, h2, h3, h4, p { margin: 0; }
+ul, ol { margin: 0; padding: 0; }
+
+.wrap {
+  width: min(1180px, calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -80px;
+  z-index: 100;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: top .2s ease;
+}
+.skip-link:focus { top: 12px; }
+
+/* ---------- progress ---------- */
+
+.progress {
+  position: fixed;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 3px;
+  z-index: 90;
+  background: transparent;
+  pointer-events: none;
+}
+.progress__bar {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--ice-deep), var(--amber));
+  transition: width .08s linear;
+}
+
+/* ---------- hero ---------- */
+
+.hero {
+  position: relative;
+  min-height: 94vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background:
+    radial-gradient(900px 600px at 72% 18%, rgba(127, 196, 214, .18), transparent 60%),
+    radial-gradient(700px 500px at 12% 82%, rgba(196, 106, 18, .10), transparent 60%),
+    linear-gradient(168deg, #0b2420 0%, #10342d 48%, #164b43 100%);
+  color: #f6f3ea;
+  isolation: isolate;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: .16;
+  background-image:
+    radial-gradient(circle at 20% 30%, #fff 0 1px, transparent 1.6px),
+    radial-gradient(circle at 68% 18%, #fff 0 1px, transparent 1.6px),
+    radial-gradient(circle at 42% 62%, #fff 0 1px, transparent 1.6px),
+    radial-gradient(circle at 84% 48%, #fff 0 1px, transparent 1.6px),
+    radial-gradient(circle at 12% 74%, #fff 0 1px, transparent 1.6px);
+  background-size: 260px 220px, 320px 280px, 380px 320px, 220px 260px, 300px 240px;
+  pointer-events: none;
+}
+
+.hero__nav {
+  position: relative;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 26px 0;
+  border-bottom: 1px solid rgba(246, 243, 234, .16);
+}
+.hero__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #f6f3ea;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.hero__brand-mark {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(246, 243, 234, .38);
+  border-radius: 50%;
+  font-family: var(--font-mono);
+  font-size: .62rem;
+  letter-spacing: .04em;
+}
+.hero__nav-links {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  list-style: none;
+}
+.hero__nav-links a {
+  color: rgba(246, 243, 234, .72);
+  text-decoration: none;
+  font-size: .82rem;
+  letter-spacing: .04em;
+  transition: color .2s ease;
+}
+.hero__nav-links a:hover { color: #fff; }
+.hero__nav-links .nav-index {
+  color: var(--ice-deep);
+  font-family: var(--font-mono);
+  font-size: .62rem;
+  margin-right: 5px;
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 3;
+  padding: clamp(54px, 8vh, 96px) 0 clamp(160px, 21vh, 240px);
+  max-width: 980px;
+}
+
+.hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ice);
+  margin-bottom: 22px;
+}
+.hero__kicker::before {
+  content: "";
+  width: 34px;
+  height: 1px;
+  background: var(--ice-deep);
+}
+
+.hero h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(3.05rem, 7.2vw, 6.55rem);
+  line-height: 1.02;
+  letter-spacing: -.045em;
+  text-wrap: balance;
+}
+.hero h1 .line-2 {
+  display: block;
+  color: var(--ice);
+}
+.hero h1 .line-2 em {
+  font-style: normal;
+  color: #f0b16a;
+}
+
+.hero__sub {
+  max-width: 690px;
+  margin-top: 26px;
+  color: rgba(246, 243, 234, .76);
+  font-size: clamp(1rem, 1.35vw, 1.14rem);
+  line-height: 1.9;
+}
+.hero__sub strong { color: #fff; font-weight: 600; }
+
+.hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-top: 38px;
+  border-top: 1px solid rgba(246, 243, 234, .18);
+  border-bottom: 1px solid rgba(246, 243, 234, .18);
+  max-width: 850px;
+}
+.hero__meta-item {
+  padding: 16px 28px 16px 0;
+  margin-right: 28px;
+  border-right: 1px solid rgba(246, 243, 234, .14);
+}
+.hero__meta-item:last-child { border-right: 0; margin-right: 0; }
+.hero__meta-label {
+  display: block;
+  color: rgba(246, 243, 234, .50);
+  font-family: var(--font-mono);
+  font-size: .62rem;
+  letter-spacing: .12em;
+  margin-bottom: 2px;
+}
+.hero__meta-value {
+  font-size: 1.18rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+}
+.hero__meta-value small { font-size: .72rem; font-weight: 400; color: rgba(246, 243, 234, .55); margin-left: 4px; }
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 34px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 46px;
+  padding: 0 20px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-size: .86rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  transition: transform .18s ease, background .18s ease, border-color .18s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn--light { background: #f6f3ea; color: var(--pine-deep); }
+.btn--light:hover { background: #fff; color: var(--pine-deep); }
+.btn--ghost { border-color: rgba(246, 243, 234, .32); color: #f6f3ea; }
+.btn--ghost:hover { border-color: rgba(246, 243, 234, .65); color: #fff; }
+.btn--dark { background: var(--pine-deep); color: #f6f3ea; }
+.btn--dark:hover { background: var(--pine); color: #fff; }
+.btn svg { width: 15px; height: 15px; }
+
+.hero__note {
+  position: absolute;
+  right: max(24px, calc((100vw - 1180px) / 2));
+  top: 50%;
+  z-index: 3;
+  writing-mode: vertical-rl;
+  color: rgba(246, 243, 234, .42);
+  font-family: var(--font-mono);
+  font-size: .62rem;
+  letter-spacing: .22em;
+  transform: translateY(-50%);
+}
+
+.hero__mountain {
+  position: absolute;
+  inset: auto 0 0 0;
+  z-index: 1;
+  line-height: 0;
+  pointer-events: none;
+}
+.hero__mountain svg { display: block; width: 100%; height: auto; }
+
+.hero__stamp {
+  position: absolute;
+  right: max(24px, calc((100vw - 1180px) / 2));
+  bottom: clamp(120px, 18vh, 190px);
+  z-index: 4;
+  width: 126px;
+  height: 126px;
+  border: 1px solid rgba(246, 243, 234, .30);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  transform: rotate(7deg);
+  color: var(--ice);
+  background: rgba(12, 39, 35, .28);
+  backdrop-filter: blur(6px);
+}
+.hero__stamp span {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: .58rem;
+  letter-spacing: .14em;
+  line-height: 1.7;
+}
+.hero__stamp strong {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1.28rem;
+  letter-spacing: .08em;
+  line-height: 1.4;
+  color: #f6f3ea;
+}
+
+/* ---------- section scaffolding ---------- */
+
+.section {
+  position: relative;
+  padding: clamp(72px, 10vw, 118px) 0;
+  border-top: 1px solid var(--line);
+}
+.section--paper { background: var(--paper); }
+.section--tight { padding-top: clamp(56px, 7vw, 84px); }
+
+.section__head {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 56px);
+  align-items: start;
+  margin-bottom: clamp(34px, 5vw, 54px);
+}
+.section__index {
+  color: var(--amber);
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  letter-spacing: .16em;
+  padding-top: 12px;
+  white-space: nowrap;
+}
+.section__index span { color: var(--line-dark); }
+.section__title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4.2vw, 3.55rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+}
+.section__title em { font-style: normal; color: var(--amber); }
+.section__lead {
+  max-width: 760px;
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: clamp(.96rem, 1.2vw, 1.05rem);
+  line-height: 1.95;
+}
+.section__lead strong { color: var(--ink); font-weight: 600; }
+
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--amber);
+  font-family: var(--font-mono);
+  font-size: .64rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.kicker::before { content: ""; width: 22px; height: 1px; background: currentColor; }
+
+/* ---------- verdict ---------- */
+
+.verdict {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr);
+  gap: clamp(28px, 5vw, 70px);
+  align-items: center;
+  margin-bottom: 34px;
+}
+.verdict__text {
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 3.2vw, 2.8rem);
+  line-height: 1.35;
+  letter-spacing: -.025em;
+}
+.verdict__text strong { color: var(--red); }
+.verdict__text .good { color: var(--pine-mid); }
+.verdict__aside {
+  border-left: 1px solid var(--line);
+  padding-left: clamp(20px, 3vw, 34px);
+  color: var(--muted);
+  font-size: .92rem;
+  line-height: 1.9;
+}
+.verdict__aside strong { color: var(--ink); }
+
+.score-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 38px 0 42px;
+}
+.score-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--pine);
+  border-radius: 0 0 var(--radius) var(--radius);
+  padding: 24px 24px 22px;
+  box-shadow: var(--shadow-sm);
+}
+.score-card:nth-child(2) { border-top-color: var(--red); }
+.score-card:nth-child(3) { border-top-color: var(--amber); }
+.score-card__label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.score-card__label span {
+  color: var(--muted);
+  font-size: .78rem;
+  letter-spacing: .06em;
+}
+.score-card__label b {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -.03em;
+}
+.score-card__label b small { font-family: var(--font-sans); font-size: .68rem; color: var(--faint); font-weight: 400; }
+.score-card p { color: var(--ink-soft); font-size: .9rem; line-height: 1.8; }
+.score-card .tiny { color: var(--faint); font-size: .76rem; margin-top: 10px; }
+
+.fix-list {
+  border-top: 1px solid var(--line);
+  margin-top: 12px;
+}
+.fix-item {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr) auto;
+  gap: 18px;
+  align-items: center;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+  transition: padding .2s ease, background .2s ease;
+}
+.fix-item:hover { background: rgba(22, 75, 67, .035); padding-left: 10px; padding-right: 10px; }
+.fix-item__num {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line-dark);
+  border-radius: 50%;
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  color: var(--amber);
+}
+.fix-item__body strong {
+  display: block;
+  font-size: 1.04rem;
+  letter-spacing: -.01em;
+}
+.fix-item__body span { display: block; color: var(--muted); font-size: .84rem; margin-top: 2px; }
+.fix-item__save {
+  font-family: var(--font-mono);
+  font-size: .78rem;
+  color: var(--pine-mid);
+  white-space: nowrap;
+  text-align: right;
+}
+.fix-item__save b { display: block; font-family: var(--font-serif); font-size: 1.35rem; letter-spacing: -.02em; }
+
+/* ---------- callout ---------- */
+
+.callout {
+  position: relative;
+  margin: 30px 0;
+  padding: 22px 26px 22px 30px;
+  background: #fbf3e4;
+  border: 1px solid #e8d4b2;
+  border-left: 4px solid var(--amber);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: #4d3a21;
+  font-size: .92rem;
+  line-height: 1.85;
+}
+.callout strong { color: #2e2213; }
+.callout .callout__label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: .62rem;
+  letter-spacing: .14em;
+  color: var(--amber);
+  margin-bottom: 4px;
+}
+.callout--blue { background: #edf4fb; border-color: #c9dcf1; border-left-color: var(--blue); color: #1e3a57; }
+.callout--blue .callout__label { color: var(--blue); }
+.callout--red { background: #fbefeb; border-color: #eccfc7; border-left-color: var(--red); color: #55281f; }
+.callout--red .callout__label { color: var(--red); }
+.callout--plain { background: var(--paper-2); border-color: var(--line); border-left-color: var(--pine); color: var(--ink-soft); }
+.callout--plain .callout__label { color: var(--pine); }
+
+/* ---------- timeline ---------- */
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--paper);
+  box-shadow: var(--shadow-sm);
+}
+.timeline__day {
+  position: relative;
+  padding: 22px 20px 24px;
+  border-right: 1px solid var(--line);
+}
+.timeline__day:last-child { border-right: 0; }
+.timeline__day--ski { background: #f2f7f4; }
+.timeline__day--travel { background: #faf5ea; }
+.timeline__date {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.timeline__date b { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .08em; color: var(--amber); }
+.timeline__date span { color: var(--faint); font-size: .7rem; }
+.timeline__day h3 { font-size: .98rem; margin-bottom: 6px; }
+.timeline__day p { color: var(--muted); font-size: .8rem; line-height: 1.75; }
+.timeline__tag {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(22, 75, 67, .08);
+  color: var(--pine-mid);
+  font-size: .68rem;
+  letter-spacing: .06em;
+}
+.timeline__day--travel .timeline__tag { background: rgba(196, 106, 18, .10); color: var(--amber); }
+
+/* ---------- cost table ---------- */
+
+.cost-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, .6fr);
+  gap: clamp(24px, 4vw, 54px);
+  align-items: start;
+}
+.table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow-sm);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .88rem;
+}
+th, td {
+  padding: 13px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+th {
+  background: #f0ece1;
+  color: var(--muted);
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:hover td { background: rgba(22, 75, 67, .028); }
+tr.total td {
+  font-weight: 700;
+  background: #f7f3ea;
+  border-top: 2px solid var(--ink);
+}
+tr.total td.num { font-family: var(--font-serif); font-size: 1.12rem; }
+.table-note {
+  color: var(--faint);
+  font-size: .74rem;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+.cost-side {
+  position: sticky;
+  top: 24px;
+  display: grid;
+  gap: 16px;
+}
+.cost-total {
+  padding: 26px 24px;
+  background: var(--pine-deep);
+  color: #f6f3ea;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+.cost-total__label { color: rgba(246, 243, 234, .55); font-size: .72rem; letter-spacing: .08em; }
+.cost-total__value {
+  margin: 5px 0 2px;
+  font-family: var(--font-serif);
+  font-size: clamp(2.3rem, 4vw, 3.2rem);
+  line-height: 1.1;
+  letter-spacing: -.04em;
+}
+.cost-total__value small { font-family: var(--font-sans); font-size: .9rem; font-weight: 400; color: rgba(246, 243, 234, .6); }
+.cost-total__sub { color: rgba(246, 243, 234, .7); font-size: .82rem; }
+.cost-total__sub b { color: var(--ice); }
+.cost-total__bar {
+  display: flex;
+  height: 9px;
+  margin-top: 18px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, .10);
+}
+.cost-total__bar span { display: block; height: 100%; }
+.cost-total__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-top: 12px;
+  color: rgba(246, 243, 234, .6);
+  font-size: .68rem;
+}
+.cost-total__legend i { display: inline-block; width: 7px; height: 7px; border-radius: 2px; margin-right: 5px; }
+
+.mini-note {
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.8;
+}
+.mini-note strong { color: var(--ink); }
+
+/* ---------- pitfalls ---------- */
+
+.pit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.pit {
+  position: relative;
+  padding: 28px 28px 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow-sm);
+}
+.pit__num {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-family: var(--font-serif);
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--line);
+}
+.pit h3 {
+  font-size: 1.16rem;
+  letter-spacing: -.01em;
+  margin-bottom: 8px;
+  max-width: 80%;
+}
+.pit p { color: var(--muted); font-size: .86rem; line-height: 1.85; }
+.pit p strong { color: var(--ink-soft); }
+.pit__action {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--line);
+  color: var(--pine-mid);
+  font-size: .8rem;
+  line-height: 1.75;
+}
+.pit__action b { color: var(--pine); }
+
+/* ---------- lodging options ---------- */
+
+.lodging-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+.lodging {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 26px 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow-sm);
+}
+.lodging--best {
+  border-color: var(--pine-mid);
+  box-shadow: 0 0 0 1px var(--pine-mid), var(--shadow-md);
+  background: linear-gradient(180deg, #f2f8f4 0%, var(--paper) 55%);
+}
+.lodging__tag {
+  position: absolute;
+  top: -11px;
+  left: 22px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--pine-mid);
+  color: #fff;
+  font-size: .66rem;
+  letter-spacing: .08em;
+}
+.lodging__label {
+  color: var(--muted);
+  font-size: .72rem;
+  letter-spacing: .08em;
+  margin-bottom: 8px;
+}
+.lodging h3 { font-size: 1.18rem; margin-bottom: 4px; }
+.lodging__price {
+  margin: 12px 0 4px;
+  font-family: var(--font-serif);
+  font-size: 2.3rem;
+  line-height: 1.1;
+  letter-spacing: -.03em;
+}
+.lodging__price small { font-family: var(--font-sans); font-size: .72rem; color: var(--faint); font-weight: 400; letter-spacing: 0; }
+.lodging__formula {
+  color: var(--faint);
+  font-family: var(--font-mono);
+  font-size: .68rem;
+  line-height: 1.7;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 14px;
+}
+.lodging ul { list-style: none; display: grid; gap: 8px; margin-bottom: 18px; }
+.lodging li {
+  position: relative;
+  padding-left: 16px;
+  color: var(--muted);
+  font-size: .82rem;
+  line-height: 1.7;
+}
+.lodging li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .68em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--line-dark);
+}
+.lodging--best li::before { background: var(--pine-mid); }
+.lodging__verdict {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px dashed var(--line);
+  font-size: .8rem;
+  color: var(--ink-soft);
+  line-height: 1.7;
+}
+.lodging__verdict b { color: var(--pine-mid); }
+
+/* ---------- compare table / chart ---------- */
+
+.compare-table td:first-child { min-width: 150px; }
+.compare-table .plan-name { display: flex; align-items: center; gap: 9px; font-weight: 600; }
+.compare-table .plan-dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+.compare-table .plan-sub { display: block; color: var(--faint); font-size: .7rem; font-weight: 400; margin-top: 1px; }
+.compare-table tr.is-current td { background: #fbefeb; }
+.compare-table tr.is-current:hover td { background: #f8e7e1; }
+.compare-table .verdict-cell { color: var(--muted); font-size: .8rem; line-height: 1.65; min-width: 190px; }
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: .66rem;
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+.tag--yes { background: #e1f0e8; color: #1d6a4e; }
+.tag--no { background: #eeeae0; color: #7b7466; }
+.tag--warn { background: #f8e3cf; color: #9a5514; }
+.rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-variant-numeric: tabular-nums;
+  font-size: .82rem;
+}
+.rating i {
+  display: inline-block;
+  width: 46px;
+  height: 5px;
+  border-radius: 999px;
+  background: #e4dfd3;
+  overflow: hidden;
+  position: relative;
+}
+.rating i::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--r, 50%);
+  background: var(--pine-mid);
+  border-radius: 999px;
+}
+.rating--snow i::after { background: var(--blue); }
+.rating--comfort i::after { background: var(--violet); }
+
+.chart-card {
+  margin-top: 26px;
+  padding: 26px 26px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow-sm);
+}
+.chart-card__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.chart-card__head h3 { font-size: 1.04rem; }
+.chart-card__head span { color: var(--faint); font-size: .74rem; }
+.chart-card svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart-note {
+  color: var(--faint);
+  font-size: .74rem;
+  line-height: 1.7;
+  margin-top: 8px;
+}
+
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+}
+.choose {
+  padding: 18px 18px 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper-2);
+}
+.choose__label { color: var(--amber); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .1em; margin-bottom: 6px; }
+.choose h4 { font-size: .95rem; margin-bottom: 4px; }
+.choose p { color: var(--muted); font-size: .78rem; line-height: 1.7; }
+
+/* ---------- recommendation ---------- */
+
+.recommend {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, .9fr);
+  gap: clamp(24px, 4vw, 48px);
+  align-items: start;
+}
+.plan-card {
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--paper);
+  box-shadow: var(--shadow-md);
+}
+.plan-card__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 8px;
+}
+.plan-card__head h3 { font-family: var(--font-serif); font-size: 1.55rem; letter-spacing: -.02em; }
+.plan-card__head p { color: var(--muted); font-size: .8rem; margin-top: 2px; }
+.plan-card__badge {
+  flex: 0 0 auto;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--pine-deep);
+  color: #f6f3ea;
+  font-family: var(--font-mono);
+  font-size: .6rem;
+  letter-spacing: .1em;
+}
+.plan-line {
+  display: grid;
+  grid-template-columns: 78px minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: .86rem;
+}
+.plan-line:last-child { border-bottom: 0; }
+.plan-line__label { color: var(--amber); font-family: var(--font-mono); font-size: .64rem; letter-spacing: .08em; }
+.plan-line__body { color: var(--muted); line-height: 1.75; }
+.plan-line__body b { color: var(--ink); font-weight: 600; }
+.plan-line__value { color: var(--pine-mid); font-family: var(--font-mono); font-size: .76rem; white-space: nowrap; }
+
+.plan-total {
+  margin-top: 18px;
+  padding: 22px 24px;
+  border-radius: var(--radius);
+  background: var(--pine-deep);
+  color: #f6f3ea;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.plan-total__label { color: rgba(246, 243, 234, .58); font-size: .72rem; letter-spacing: .08em; }
+.plan-total__value { font-family: var(--font-serif); font-size: 2.6rem; line-height: 1.1; letter-spacing: -.04em; }
+.plan-total__value small { display: block; margin-top: 4px; font-family: var(--font-sans); font-size: .78rem; color: rgba(246, 243, 234, .55); font-weight: 400; }
+.plan-total__save { text-align: right; color: var(--ice); font-size: .78rem; line-height: 1.6; }
+.plan-total__save b { display: block; font-family: var(--font-serif); font-size: 1.35rem; color: #fff; }
+
+.checklist {
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  overflow: hidden;
+}
+.checklist__head {
+  padding: 14px 20px;
+  background: #f0ece1;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: .64rem;
+  letter-spacing: .1em;
+}
+.checklist__item {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 10px;
+  padding: 13px 20px;
+  border-top: 1px solid var(--line);
+  font-size: .82rem;
+}
+.checklist__item:first-of-type { border-top: 0; }
+.checklist__box {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  border: 1px solid var(--line-dark);
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  color: transparent;
+  font-size: .62rem;
+  line-height: 1;
+}
+.checklist__item:hover .checklist__box { border-color: var(--pine-mid); color: var(--pine-mid); }
+.checklist__item b { color: var(--ink); }
+.checklist__item span { color: var(--muted); }
+
+.fallback {
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--paper);
+}
+.fallback__row {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 14px;
+  padding: 12px 18px;
+  border-top: 1px solid var(--line);
+  font-size: .8rem;
+}
+.fallback__row:first-child { border-top: 0; }
+.fallback__row b { color: var(--ink); }
+.fallback__row span { color: var(--muted); }
+
+/* ---------- calculator ---------- */
+
+.calculator {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr);
+  gap: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--paper);
+  box-shadow: var(--shadow-md);
+}
+.calc-form { padding: clamp(24px, 3.4vw, 38px); }
+.calc-form h3 { font-family: var(--font-serif); font-size: 1.5rem; letter-spacing: -.02em; }
+.calc-form > p { color: var(--muted); font-size: .82rem; margin-top: 4px; }
+.calc-fields { display: grid; gap: 18px; margin-top: 24px; }
+.calc-field label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: .78rem;
+  color: var(--muted);
+  margin-bottom: 7px;
+}
+.calc-field label output {
+  font-family: var(--font-mono);
+  font-size: .76rem;
+  color: var(--ink);
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1px 7px;
+}
+.calc-field input[type="range"] {
+  width: 100%;
+  accent-color: var(--pine-mid);
+  height: 22px;
+  cursor: pointer;
+}
+.calc-field select {
+  width: 100%;
+  min-height: 42px;
+  padding: 8px 34px 8px 12px;
+  border: 1px solid var(--line-dark);
+  border-radius: 8px;
+  background: #fffdf8;
+  font-size: .82rem;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%2365736d' stroke-width='1.4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+.calc-field select:focus-visible,
+.calc-field input:focus-visible { outline: 2px solid var(--ice-deep); outline-offset: 2px; }
+.calc-check {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: .8rem;
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+}
+.calc-check input { width: 16px; height: 16px; accent-color: var(--pine-mid); }
+
+.calc-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: clamp(24px, 3.4vw, 38px);
+  background:
+    radial-gradient(500px 300px at 100% 0%, rgba(127, 196, 214, .16), transparent 65%),
+    var(--pine-deep);
+  color: #f6f3ea;
+}
+.calc-result__label { color: rgba(246, 243, 234, .55); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .12em; }
+.calc-result__value {
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 6vw, 4.8rem);
+  line-height: 1;
+  letter-spacing: -.05em;
+  margin: 6px 0 4px;
+}
+.calc-result__value small { font-family: var(--font-sans); font-size: .9rem; color: rgba(246, 243, 234, .55); font-weight: 400; letter-spacing: 0; }
+.calc-result__sub { color: rgba(246, 243, 234, .70); font-size: .82rem; line-height: 1.8; }
+.calc-result__sub b { color: var(--ice); }
+.calc-result__delta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(127, 196, 214, .12);
+  border: 1px solid rgba(127, 196, 214, .26);
+  color: var(--ice);
+  font-size: .72rem;
+  width: fit-content;
+}
+.calc-breakdown {
+  border-top: 1px solid rgba(246, 243, 234, .16);
+  padding-top: 16px;
+  display: grid;
+  gap: 7px;
+  font-size: .74rem;
+  color: rgba(246, 243, 234, .62);
+}
+.calc-breakdown div { display: flex; justify-content: space-between; gap: 16px; }
+.calc-breakdown b { color: rgba(246, 243, 234, .92); font-weight: 500; font-variant-numeric: tabular-nums; }
+.calc-reset {
+  align-self: flex-start;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid rgba(246, 243, 234, .4);
+  background: transparent;
+  color: rgba(246, 243, 234, .72);
+  font-size: .72rem;
+  line-height: 1.6;
+}
+.calc-reset:hover { color: #fff; border-color: #fff; }
+
+/* ---------- footer ---------- */
+
+.footer {
+  background: #0b211d;
+  color: rgba(246, 243, 234, .70);
+  padding: clamp(54px, 7vw, 80px) 0 34px;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr);
+  gap: clamp(28px, 5vw, 70px);
+}
+.footer h3 {
+  font-family: var(--font-serif);
+  color: #f6f3ea;
+  font-size: 1.35rem;
+  letter-spacing: -.02em;
+  margin-bottom: 12px;
+}
+.footer p { font-size: .82rem; line-height: 1.9; }
+.footer ul { list-style: none; display: grid; gap: 8px; }
+.footer li { font-size: .78rem; line-height: 1.7; }
+.footer a { color: rgba(246, 243, 234, .78); text-decoration-color: rgba(246, 243, 234, .24); }
+.footer a:hover { color: #fff; }
+.footer__sources { columns: 2; column-gap: 24px; }
+.footer__sources li { break-inside: avoid; margin-bottom: 2px; }
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 44px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(246, 243, 234, .14);
+  color: rgba(246, 243, 234, .38);
+  font-size: .7rem;
+  letter-spacing: .04em;
+}
+.footer__bottom .mono { color: rgba(246, 243, 234, .38); }
+
+.nowrap { white-space: nowrap; }
+
+/* ---------- reveal ---------- */
+
+.js .reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .7s cubic-bezier(.2, .7, .3, 1), transform .7s cubic-bezier(.2, .7, .3, 1);
+}
+.js .reveal.is-visible { opacity: 1; transform: none; }
+
+/* ---------- responsive ---------- */
+
+@media (max-width: 1020px) {
+  .hero__nav-links { gap: 16px; }
+  .hero__nav-links .nav-index { display: none; }
+  .hero__stamp { display: none; }
+  .hero__note { display: none; }
+  .cost-layout, .recommend { grid-template-columns: 1fr; }
+  .cost-side { position: static; grid-template-columns: 1fr 1fr; }
+  .calculator { grid-template-columns: 1fr; }
+  .choose-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 860px) {
+  .section__head { grid-template-columns: 1fr; gap: 8px; }
+  .section__index { padding-top: 0; }
+  .verdict { grid-template-columns: 1fr; gap: 18px; }
+  .verdict__aside { border-left: 0; border-top: 1px solid var(--line); padding-left: 0; padding-top: 16px; }
+  .score-grid { grid-template-columns: 1fr; }
+  .timeline { grid-template-columns: 1fr; }
+  .timeline__day { border-right: 0; border-bottom: 1px solid var(--line); }
+  .timeline__day:last-child { border-bottom: 0; }
+  .pit-grid { grid-template-columns: 1fr; }
+  .lodging-grid { grid-template-columns: 1fr; }
+  .footer__grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 720px) {
+  .wrap { width: min(100% - 32px, 1180px); }
+  .hero { min-height: 90vh; }
+  .hero__nav { padding: 18px 0; }
+  .hero__nav-links { display: none; }
+  .hero__inner { padding-top: 48px; padding-bottom: 150px; }
+  .hero h1 { font-size: clamp(2.7rem, 12vw, 4.2rem); }
+  .hero__meta { display: grid; grid-template-columns: 1fr 1fr; }
+  .hero__meta-item { border-right: 0; margin-right: 0; padding: 12px 0; }
+  .hero__meta-item:nth-child(odd) { border-right: 1px solid rgba(246, 243, 234, .14); }
+  .score-card { padding: 20px; }
+  .fix-item { grid-template-columns: 36px minmax(0, 1fr); gap: 12px; }
+  .fix-item__save { grid-column: 2; text-align: left; margin-top: -4px; }
+  .fix-item__save b { display: inline; font-size: 1.05rem; margin-right: 4px; }
+  .cost-side { grid-template-columns: 1fr; }
+  .plan-line { grid-template-columns: 64px minmax(0, 1fr); }
+  .plan-line__value { grid-column: 2; margin-top: -8px; }
+  .plan-card { padding: 22px; }
+  .calc-form, .calc-result { padding: 22px; }
+  .footer__sources { columns: 1; }
+  .chart-card { padding: 18px 14px 12px; }
+  .choose-grid { grid-template-columns: 1fr; }
+  .fallback__row { grid-template-columns: 1fr; gap: 2px; }
+  .hero__actions .btn { flex: 1 1 auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .progress__bar { transition: none; }
+  * { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
+
+/* ---------- print ---------- */
+
+@media print {
+  body { background: #fff; color: #000; font-size: 10.5pt; }
+  .progress, .hero__nav, .hero__actions, .hero__stamp, .hero__note, .calc-reset { display: none !important; }
+  .hero {
+    min-height: auto;
+    background: #fff;
+    color: #000;
+    border-bottom: 2px solid #000;
+  }
+  .hero::before, .hero__mountain { display: none; }
+  .hero__inner { padding: 24px 0; }
+  .hero h1 .line-2 { color: #333; }
+  .hero__sub, .hero__meta-label, .hero__meta-value small { color: #333; }
+  .hero__meta { border-color: #999; }
+  .section { padding: 24px 0; break-inside: avoid; }
+  .score-card, .pit, .lodging, .plan-card, .chart-card, .table-wrap { box-shadow: none; break-inside: avoid; }
+  .cost-side { position: static; }
+  .calculator { display: none; }
+  .footer { background: #fff; color: #000; }
+  .footer h3, .footer a { color: #000; }
+}
+
+/* chart scroll on narrow screens */
+.chart-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.chart-scroll svg { min-width: 640px; }
+
+/* ---------- mobile card tables ---------- */
+.chart-hint { display: none; }
+
+@media (max-width: 720px) {
+  .hero h1 { font-size: clamp(2.3rem, 9.5vw, 4.2rem); }
+  .hero__kicker { font-size: .56rem; letter-spacing: .1em; white-space: nowrap; }
+  .hero__sub strong { white-space: nowrap; }
+
+  .aa-wrap, .compare-wrap {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    overflow: visible;
+  }
+
+  .aa-table, .aa-table tbody, .aa-table tr, .aa-table td,
+  .compare-table, .compare-table tbody, .compare-table tr, .compare-table td {
+    display: block;
+    width: 100%;
+  }
+  .aa-table thead, .compare-table thead { display: none; }
+
+  .aa-table tr, .compare-table tr {
+    margin: 0 0 12px;
+    padding: 14px 16px;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--paper);
+    box-shadow: var(--shadow-sm);
+  }
+  .compare-table tr.is-current {
+    border-color: #e2b9ae;
+    background: #fbefeb;
+  }
+
+  .aa-table td, .compare-table td {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 5px 0;
+    border: 0;
+    text-align: right;
+    font-size: .82rem;
+    line-height: 1.6;
+  }
+  .aa-table td::before, .compare-table td::before {
+    content: attr(data-label);
+    flex: 0 0 auto;
+    color: var(--faint);
+    font-size: .7rem;
+    letter-spacing: .02em;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .aa-table td:first-child, .compare-table td:first-child {
+    display: block;
+    padding: 0 0 9px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    font-size: .95rem;
+  }
+  .aa-table td:first-child::before, .compare-table td:first-child::before { display: none; }
+
+  .aa-table td.num, .compare-table td.num {
+    font-family: var(--font-mono);
+    font-size: .84rem;
+  }
+  .aa-table td[data-label="说明"], .compare-table td.verdict-cell {
+    display: block;
+    padding-top: 7px;
+    text-align: left;
+    color: var(--muted);
+  }
+  .aa-table td[data-label="说明"]::before, .compare-table td.verdict-cell::before {
+    display: block;
+    margin-bottom: 2px;
+  }
+  .compare-table .rating { justify-content: flex-end; }
+  .compare-table tr:hover td, .aa-table tr:hover td { background: transparent; }
+
+  .chart-hint {
+    display: block;
+    margin-top: 10px;
+    color: var(--amber);
+    font-family: var(--font-mono);
+    font-size: .64rem;
+    letter-spacing: .06em;
+    text-align: right;
+  }
+}
+
+@media (max-width: 720px) {
+  .plan-card__head { flex-wrap: wrap; gap: 8px; }
+  .plan-card__head h3 { font-size: 1.32rem; }
+  .plan-card__badge { padding: 3px 8px; font-size: .54rem; }
+  .chart-scroll {
+    -webkit-mask-image: linear-gradient(90deg, #000 86%, transparent 100%);
+    mask-image: linear-gradient(90deg, #000 86%, transparent 100%);
+  }
+}
+
+.verdict__text strong { white-space: nowrap; }
+@media (max-width: 720px) {
+  .verdict__text { font-size: 1.58rem; }
+}
+
+@media (max-width: 720px) {
+  .plan-total { flex-direction: column; align-items: flex-start; }
+  .plan-total__save { text-align: left; }
+}
+
+.lodging-grid--two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 860px) {
+  .lodging-grid--two { grid-template-columns: 1fr; }
+}
+
+.aa-table th, .compare-table th { text-transform: none; }
+
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+<header class="hero">
+  <nav class="hero__nav wrap" aria-label="页面导航">
+    <a class="hero__brand" href="#top">
+      <span class="hero__brand-mark">43°N</span>
+      <span>雪季档案 / 2027</span>
+    </a>
+    <ul class="hero__nav-links">
+      <li><a href="#verdict"><span class="nav-index">01</span>先说结论</a></li>
+      <li><a href="#plan"><span class="nav-index">02</span>账单</a></li>
+      <li><a href="#lodging"><span class="nav-index">03</span>住法</a></li>
+      <li><a href="#aa"><span class="nav-index">04</span>分账</a></li>
+      <li><a href="#compare"><span class="nav-index">05</span>对比</a></li>
+      <li><a href="#action"><span class="nav-index">06</span>执行</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero__inner wrap" id="top">
+    <p class="hero__kicker mono">Trip dossier · Hangzhou → Changchun → Beidahu</p>
+    <h1>
+      北大湖的行程，
+      <span class="line-2">安排得<em>不错</em>。</span>
+    </h1>
+    <p class="hero__sub">
+      3 个人、4 晚、3 个雪日。套餐每晚 2 张票，覆盖你和 louis；zk 的雪票 30/天，滑几天买几张；
+      民宿 200/晚；租车 1,000/4 天全包，含机场-雪场，自己开。
+      <strong>住+票 5,190，总价约 12,990，人均 4,330。</strong>
+    </p>
+
+    <div class="hero__meta" aria-label="行程概览">
+      <div class="hero__meta-item">
+        <span class="hero__meta-label">DATES</span>
+        <span class="hero__meta-value">01.07—01.11 <small>2027</small></span>
+      </div>
+      <div class="hero__meta-item">
+        <span class="hero__meta-label">PARTY</span>
+        <span class="hero__meta-value">3 人 <small>zk♥louis + 你</small></span>
+      </div>
+      <div class="hero__meta-item">
+        <span class="hero__meta-label">SKI DAYS</span>
+        <span class="hero__meta-value">3.5 天 <small>首尾为交通日</small></span>
+      </div>
+      <div class="hero__meta-item">
+        <span class="hero__meta-label">FLIGHT</span>
+        <span class="hero__meta-value">¥1.2k <small>往返 / 人</small></span>
+      </div>
+    </div>
+
+    <div class="hero__actions">
+      <a class="btn btn--light" href="#verdict">
+        先看结论
+        <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2v11M3.5 8.5 8 13l4.5-4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a class="btn btn--ghost" href="#plan">跳到账单</a>
+    </div>
+  </div>
+
+  <div class="hero__stamp" aria-hidden="true">
+    <span>BEIDAHU<br>ELEV. 1,200M<br>JAN 2027</span>
+  </div>
+  <div class="hero__note" aria-hidden="true">A DECISION MEMO, NOT A QUOTE</div>
+
+  <div class="hero__mountain" aria-hidden="true">
+    <svg viewBox="0 0 1440 430" role="presentation">
+      <defs>
+        <linearGradient id="skyGlow" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#b8dfe8" stop-opacity=".18"/>
+          <stop offset="1" stop-color="#b8dfe8" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="mBack" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#3b756a"/>
+          <stop offset="1" stop-color="#1b4a42"/>
+        </linearGradient>
+        <linearGradient id="mMid" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#174f46"/>
+          <stop offset="1" stop-color="#0f342e"/>
+        </linearGradient>
+        <linearGradient id="mFront" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#0b211d"/>
+          <stop offset="1" stop-color="#081814"/>
+        </linearGradient>
+      </defs>
+      <circle cx="1130" cy="86" r="132" fill="url(#skyGlow)"/>
+      <circle cx="1130" cy="86" r="37" fill="#d9eef1" opacity=".82"/>
+      <circle cx="1130" cy="86" r="52" fill="none" stroke="#d9eef1" stroke-opacity=".20"/>
+
+      <path d="M0 286 112 218 196 262 318 168 420 240 512 142 626 248 742 180 858 268 972 196 1082 258 1206 176 1310 246 1440 190V430H0Z" fill="url(#mBack)" opacity=".72"/>
+      <path d="M0 330 96 278 208 320 318 236 438 310 548 222 668 318 786 250 906 326 1022 264 1138 322 1258 246 1360 304 1440 268V430H0Z" fill="url(#mMid)"/>
+      <path d="M0 372 126 318 240 360 366 286 492 354 610 300 742 366 866 308 1002 368 1124 310 1248 362 1358 318 1440 348V430H0Z" fill="url(#mFront)"/>
+
+      <path d="M512 142 548 222 512 208 492 220 474 202Z" fill="#d9eef1" opacity=".24"/>
+      <path d="M1206 176 1244 244 1206 230 1188 242 1170 226Z" fill="#d9eef1" opacity=".18"/>
+      <path d="M318 168 350 236 318 222 300 234 284 218Z" fill="#d9eef1" opacity=".16"/>
+
+      <path d="M152 318 520 252" stroke="#d9eef1" stroke-opacity=".22" stroke-width="1.4"/>
+      <path d="M152 318v-26M520 252v-26" stroke="#d9eef1" stroke-opacity=".22" stroke-width="1.2"/>
+      <circle cx="245" cy="301" r="4" fill="#d9eef1" opacity=".34"/>
+      <circle cx="340" cy="284" r="4" fill="#d9eef1" opacity=".34"/>
+      <circle cx="435" cy="267" r="4" fill="#d9eef1" opacity=".34"/>
+
+      <path d="M0 404C180 378 298 420 470 402c172-18 286 18 448 4 170-14 326-36 522-18v42H0Z" fill="#f3f0e8"/>
+    </svg>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- =========================================================
+     01 VERDICT
+     ========================================================= -->
+<section class="section section--paper" id="verdict">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">01 <span>/</span> 先说结论</div>
+      <div>
+        <h2 class="section__title">方案成立，<em>已经接近最优</em>。</h2>
+        <p class="section__lead">
+          套餐每晚 2 张票覆盖你和 louis；zk 的雪票 30/天，3 天 90；民宿 800；租车 1,000/4 天全包（含机场-雪场）。
+          住+票 5,190，总价 12,990，人均 4,330。真正还要确认的只有三件事。
+        </p>
+      </div>
+    </div>
+
+    <div class="verdict reveal">
+      <p class="verdict__text">
+        目的地 <span class="good">9 分</span>，<br>
+        当前账单 <strong>8 分</strong>。<br>
+        住+票 5,190，<br>
+        总价 12,990，人均 4,330。
+      </p>
+      <aside class="verdict__aside">
+        <p><strong>不需要大改。</strong>租车 1,000 已含机场-雪场；再确认油/停车/雪胎是否也包、民宿能不能停车、AA 怎么分。三件事说清楚就可以订。</p>
+      </aside>
+    </div>
+
+    <div class="score-grid reveal">
+      <article class="score-card">
+        <div class="score-card__label"><span>目的地选择</span><b>9<small>/10</small></b></div>
+        <p>北纬 43°，81 条雪道，最长 4.2 km。对 3 个雪日来说，中级道和高级道都够滑，不用天天重复同一条。</p>
+        <p class="tiny">扣 1 分：冷、偏远、晚上没事干。</p>
+      </article>
+      <article class="score-card">
+        <div class="score-card__label"><span>当前账单</span><b>8<small>/10</small></b></div>
+        <p>套餐每晚 2 张票覆盖你和 louis；zk 30/天 × 3 = 90；民宿 800；租车 1,000（含机场-雪场）。住+票+车 6,190，已经很低。</p>
+        <p class="tiny">按你给的价格 + 估算：合计 ¥12,990，人均 ¥4,330。</p>
+      </article>
+      <article class="score-card">
+        <div class="score-card__label"><span>执行风险</span><b>7<small>/10</small></b></div>
+        <p>租车是否全包、民宿/雪场停车、AA 规则——都是确认项，不是大坑。</p>
+        <p class="tiny">最大的风险：1/11 晚班机 + 雪天自驾。</p>
+      </article>
+    </div>
+
+    <div class="fix-list reveal">
+      <a class="fix-item" href="#plan">
+        <span class="fix-item__num">01</span>
+        <span class="fix-item__body">
+          <strong>租车 1,000：机场-雪场已含</strong>
+          <span>机场-雪场不用再买接送；再确认油/停车/雪胎是否也包，包就保留车。</span>
+        </span>
+        <span class="fix-item__save"><b>已含</b>机场-雪场</span>
+      </a>
+      <a class="fix-item" href="#lodging">
+        <span class="fix-item__num">02</span>
+        <span class="fix-item__body">
+          <strong>确认民宿 / 雪场停车</strong>
+          <span>自己开，先问民宿有没有停车、雪场停车费多少；没停车会很麻烦。</span>
+        </span>
+        <span class="fix-item__save"><b>停车</b>先问清</span>
+      </a>
+      <a class="fix-item" href="#aa">
+        <span class="fix-item__num">03</span>
+        <span class="fix-item__body">
+          <strong>AA：套餐对半，其余三人均摊</strong>
+          <span>不含民宿：你和 louis 各 4,780；zk 2,630。</span>
+        </span>
+        <span class="fix-item__save"><b>都 4,780</b>不含民宿</span>
+      </a>
+    </div>
+
+    <div class="callout reveal">
+      <span class="callout__label">最优先</span>
+      1,000 已含机场-雪场往返；再确认油/停车/雪胎是否也包。全包就保留车——自己开，三个人灵活，不用再为了省一两百折腾大巴。
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     02 PLAN
+     ========================================================= -->
+<section class="section" id="plan">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">02 <span>/</span> 账单</div>
+      <div>
+        <h2 class="section__title">5 天 4 晚，<br>钱花在 <em>三个大头</em>。</h2>
+        <p class="section__lead">
+          1/7 下午飞、1/11 晚回，真正完整滑雪是 1/8、1/9、1/10，1/11 最多一个上午。
+          住+票+车已经压到 6,190；真正的大头是机票、吃和杂费。
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline reveal" aria-label="行程时间线">
+      <div class="timeline__day timeline__day--travel">
+        <div class="timeline__date"><b>01.07</b><span>周四</span></div>
+        <h3>杭州 → 长春 → 北大湖</h3>
+        <p>下午起飞，傍晚落地；取车自己开，约 2 小时到民宿/雪场。当天不滑。</p>
+        <span class="timeline__tag">交通日</span>
+      </div>
+      <div class="timeline__day timeline__day--ski">
+        <div class="timeline__date"><b>01.08</b><span>周五</span></div>
+        <h3>第一个全天</h3>
+        <p>建议先刷中级道找脚感；下午去 H10 追风大道或 H18 南楼大道。</p>
+        <span class="timeline__tag">滑雪日</span>
+      </div>
+      <div class="timeline__day timeline__day--ski">
+        <div class="timeline__date"><b>01.09</b><span>周六</span></div>
+        <h3>第二个全天</h3>
+        <p>人多，早点上缆车；中午错峰吃饭。晚上泡汤，别硬撑。</p>
+        <span class="timeline__tag">滑雪日</span>
+      </div>
+      <div class="timeline__day timeline__day--ski">
+        <div class="timeline__date"><b>01.10</b><span>周日</span></div>
+        <h3>第三个全天</h3>
+        <p>把想滑的道刷完；检查装备、买伴手礼。别把体力全用完。</p>
+        <span class="timeline__tag">滑雪日</span>
+      </div>
+      <div class="timeline__day timeline__day--travel">
+        <div class="timeline__date"><b>01.11</b><span>周一</span></div>
+        <h3>半天 → 机场</h3>
+        <p>早上退房、寄存行李；视航班时间滑 2 小时。提前 3 小时自驾去机场。</p>
+        <span class="timeline__tag">返程日</span>
+      </div>
+    </div>
+
+    <div class="callout callout--blue reveal">
+      <span class="callout__label">自驾提醒</span>
+      长春机场 → 北大湖约 2 小时，冬季山路。确认租车有雪胎/四驱，民宿和雪场都能停车；晚上取车别疲劳驾驶。如果航班太晚、不想开夜路，机场附近住一晚，第二天再走。
+    </div>
+
+    <div class="cost-layout" style="margin-top: 42px;">
+      <div class="reveal">
+        <div class="table-wrap">
+          <table aria-label="当前方案费用明细">
+            <thead>
+              <tr><th>项目</th><th class="num">金额</th><th>说明</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>往返机票 × 3</td><td class="num">¥3,600</td><td>¥1,200/人，按你给的报价</td></tr>
+              <tr><td>住滑套餐 4 晚（每晚 2 张雪票）</td><td class="num">¥4,300</td><td>zk♥louis 住套餐房，2 张票覆盖你和 louis</td></tr>
+              <tr><td>加订 1 间房 × 4 晚（镇上民宿）</td><td class="num">¥800</td><td>按 ¥200/晚，你给的价</td></tr>
+              <tr><td>zk 雪票（3 天 × 30）</td><td class="num">¥90</td><td>滑几天买几张；1/11 第 4 天再 +30</td></tr>
+              <tr><td>租车 4 天（含机场-雪场）</td><td class="num">¥1,000</td><td>¥250/天，全包；自己开</td></tr>
+              <tr><td>餐饮 × 3 人 × 5 天</td><td class="num">¥2,700</td><td>按 ¥180/人/天，山上餐饮偏贵</td></tr>
+              <tr><td>滑雪保险 / 杂费（含邮寄雪板）</td><td class="num">¥500</td><td>意外险、雪板邮寄、行李、温泉等</td></tr>
+              <tr class="total"><td>合计</td><td class="num">¥12,990</td><td>人均 ¥4,330（自带装备）</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">以上为“决策底稿”不是报价：机票 ¥1,200/人；民宿 ¥200/晚；租车 4 天 ¥1,000 全包；zk 雪票 30/天 × 3；实际以预订页为准。未计购物、酒水、教练、夜场。1/11 上午若也滑，zk 再买 1 张 30。</p>
+      </div>
+
+      <aside class="cost-side reveal">
+        <div class="cost-total">
+          <div class="cost-total__label">CURRENT TOTAL / 3 PAX</div>
+          <div class="cost-total__value">¥12,990</div>
+          <div class="cost-total__sub">人均 <b>¥4,330</b> · 住+票占 40%</div>
+          <div class="cost-total__bar" aria-hidden="true">
+            <span style="width:27.7%; background:#b8dfe8;"></span>
+            <span style="width:40.0%; background:#7fc4d6;"></span>
+            <span style="width:20.8%; background:#f0b16a;"></span>
+            <span style="width:7.7%; background:#d98b6a;"></span>
+            <span style="width:3.8%; background:#9aa89e;"></span>
+          </div>
+          <div class="cost-total__legend">
+            <span><i style="background:#b8dfe8;"></i>机票 28%</span>
+            <span><i style="background:#7fc4d6;"></i>住+票 40%</span>
+            <span><i style="background:#f0b16a;"></i>吃 21%</span>
+            <span><i style="background:#d98b6a;"></i>车 8%</span>
+            <span><i style="background:#9aa89e;"></i>杂 4%</span>
+          </div>
+        </div>
+        <div class="mini-note">
+          <strong>住 + 票 + 车一共 ¥6,190</strong>，占总价 48%。真正的大头是机票 ¥3,600、吃 ¥2,700；装备自带，没有租赁成本。
+        </div>
+      </aside>
+    </div>
+
+    <div class="callout callout--red reveal">
+      <span class="callout__label">租车 1,000 的口径</span>
+      1,000 就是机场-雪场往返 + 4 天当地用车，不再另买大巴/接送；如果还含油/停车/雪胎，就保留车。如果 1,000 不含油/停车，先把这部分加上再重算。
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     03 LODGING
+     ========================================================= -->
+<section class="section" id="lodging">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">03 <span>/</span> 住法</div>
+      <div>
+        <h2 class="section__title">民宿 200/晚，<br>两间套餐房贵 <em>¥3,410</em>。</h2>
+        <p class="section__lead">
+          只看“住 + 雪票”：A 是 ¥5,190，C 是 ¥8,600。C 贵 3,410，买的是两间房和隐私。
+          但先别默认谁住哪间——<strong>套餐房 + 民宿怎么分配？</strong> 下面暂按“zk♥louis 住套餐房，你住民宿”算；如果反过来，总价不变，但分账和票的实名绑定要重新确认。
+        </p>
+      </div>
+    </div>
+
+    <div class="callout callout--plain reveal">
+      <span class="callout__label">待定</span>
+      <strong>套餐房 + 民宿怎么分配？</strong> 是 zk♥louis 住套餐房、你住民宿，还是反过来，或者别的安排？
+      总价都是 ¥5,190，但谁住哪间会影响分账、舒适度，以及套餐票的实名绑定。
+    </div>
+
+    <div class="lodging-grid lodging-grid--two">
+      <article class="lodging lodging--best reveal">
+        <span class="lodging__tag">成本最优</span>
+        <div class="lodging__label">OPTION A / 暂按：zk♥louis 住套餐房，你住民宿</div>
+        <h3>套餐房 + 民宿</h3>
+        <div class="lodging__price">¥5,190</div>
+        <div class="lodging__formula">4,300 套餐 + 800 民宿 + 90 zk 雪票</div>
+        <ul>
+          <li>zk♥louis 住套餐房，每晚含 2 张票</li>
+          <li>2 张票覆盖你和 louis</li>
+          <li>你住镇上民宿，¥200/晚</li>
+          <li>zk 雪票 30/天 × 3 = 90</li>
+        </ul>
+        <p class="lodging__verdict"><b>结论：</b>票、住都通了，成本最低。先确认民宿和雪场停车。</p>
+      </article>
+
+      <article class="lodging reveal">
+        <div class="lodging__label">OPTION C / 备选</div>
+        <h3>两间套餐房</h3>
+        <div class="lodging__price">¥8,600</div>
+        <div class="lodging__formula">4,300 × 2（两间房，每晚各 2 张票）</div>
+        <ul>
+          <li>两间房，隐私最好</li>
+          <li>票很多，3 个人用不完</li>
+          <li>比 A 贵 ¥3,410</li>
+          <li>zk 的 30/天票也省不了多少</li>
+        </ul>
+        <p class="lodging__verdict"><b>结论：</b>除非你就是要两间房 / 隐私，否则不推荐。</p>
+      </article>
+    </div>
+
+    <div class="callout reveal">
+      <span class="callout__label">先确认民宿</span>
+      200/晚很香，但要确认：离雪场多远？有没有停车？暖气/热水够不够？晚到能不能入住？
+      你们自己开车，民宿和雪场停车比“有没有接送”更重要。
+    </div>
+
+    <div class="reveal" style="margin-top: 38px;">
+      <p class="kicker">Ask before you pay</p>
+      <h3 style="font-family: var(--font-serif); font-size: clamp(1.4rem, 2.8vw, 2rem); letter-spacing: -.02em; margin-bottom: 14px;">订房前，问这 5 句</h3>
+      <div class="fallback">
+        <div class="fallback__row"><b>01 票</b><span>套餐每晚 2 张票，能不能覆盖我和 louis？zk 的 30/天票怎么买、怎么核验（身份证/人脸）？</span></div>
+        <div class="fallback__row"><b>02 民宿</b><span>镇上民宿 ¥200/晚：离雪场多远？有停车/暖气/热水吗？晚到能入住吗？</span></div>
+        <div class="fallback__row"><b>03 停车</b><span>民宿停车免费吗？雪场停车怎么收费？冬天早上要不要抢车位？</span></div>
+        <div class="fallback__row"><b>04 赛事</b><span>1/7–11 有没有赛事管控 / 雪道关闭？自驾上山的路况如何？</span></div>
+        <div class="fallback__row"><b>05 租车</b><span>1,000 已含机场-雪场；油/停车/雪胎是否也包？取还车在机场哪个位置？</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     04 AA
+     ========================================================= -->
+<section class="section section--paper" id="aa">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">04 <span>/</span> 分账</div>
+      <div>
+        <h2 class="section__title">套餐对半，<br>其余三人 <em>AA</em>。</h2>
+        <p class="section__lead">
+          按总价 ¥12,990 算。住滑套餐 ¥4,300 由你和 louis 各 ¥2,150；
+          民宿 800 单独列出来，怎么分待定；先算其余：zk 雪票 90 + 租车 1,000 + 吃 2,700 + 杂 500 = 4,290，3 人均摊，每人 1,430。
+        </p>
+      </div>
+    </div>
+
+    <div class="table-wrap aa-wrap reveal">
+      <table class="aa-table" aria-label="按实际规则分账">
+        <thead>
+          <tr><th>项目</th><th class="num">你</th><th class="num">louis</th><th class="num">zk</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="项目">机票</td>
+            <td class="num" data-label="你">¥1,200</td>
+            <td class="num" data-label="louis">¥1,200</td>
+            <td class="num" data-label="zk">¥1,200</td>
+          </tr>
+          <tr>
+            <td data-label="项目">住滑套餐</td>
+            <td class="num" data-label="你">¥2,150</td>
+            <td class="num" data-label="louis">¥2,150</td>
+            <td class="num" data-label="zk">¥0</td>
+          </tr>
+          <tr>
+            <td data-label="项目">其余 3 人均摊（不含民宿）</td>
+            <td class="num" data-label="你">¥1,430</td>
+            <td class="num" data-label="louis">¥1,430</td>
+            <td class="num" data-label="zk">¥1,430</td>
+          </tr>
+          <tr>
+            <td data-label="项目">民宿 800（怎么分？）</td>
+            <td class="num" data-label="你">待定</td>
+            <td class="num" data-label="louis">待定</td>
+            <td class="num" data-label="zk">待定</td>
+          </tr>
+          <tr class="total">
+            <td data-label="项目">小计（不含民宿）</td>
+            <td class="num" data-label="你">¥4,780</td>
+            <td class="num" data-label="louis">¥4,780</td>
+            <td class="num" data-label="zk">¥2,630</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout callout--plain reveal">
+      <span class="callout__label">这版分法</span>
+      不含民宿：你和 louis 各 <strong>¥4,780</strong>；zk <strong>¥2,630</strong>。民宿 800 怎么分，定好之后再加到对应的人头上。
+    </div>
+
+
+  </div>
+</section>
+
+<!-- =========================================================
+     05 COMPARE
+     ========================================================= -->
+<section class="section section--paper" id="compare">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">05 <span>/</span> 对比</div>
+      <div>
+        <h2 class="section__title">北大湖不是唯一解，<br>但综合下来，<em>还是它最稳</em>。</h2>
+        <p class="section__lead">
+          同样 3 人、4 晚、3 个雪日，按 2026 年 11 月的价格水平估算，按自带装备计算。
+          北大湖当前方案 4,330/人，雪场 9.2 分；雪如意高铁版 4,267，只便宜 63，租车版 4,433 反而更贵——先看它在图里的位置。
+        </p>
+      </div>
+    </div>
+
+    <div class="table-wrap compare-wrap reveal">
+      <table class="compare-table" aria-label="五个滑雪目的地对比">
+        <thead>
+          <tr>
+            <th>方案</th>
+            <th class="num">人均总价</th>
+            <th>雪场体验</th>
+            <th>交通</th>
+            <th>住宿舒适</th>
+            <th>zk 雪票</th>
+            <th>一句话结论</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="方案"><span class="plan-name"><i class="plan-dot" style="background:#2d63c9;"></i><span>北大湖 · 当前<span class="plan-sub">套餐房 + 民宿 + 租车</span></span></span></td>
+            <td data-label="人均总价" class="num"><strong>¥4,330</strong></td>
+            <td data-label="雪场体验"><span class="rating rating--snow"><i style="--r:92%"></i>9.2</span></td>
+            <td data-label="交通">4.5h</td>
+            <td data-label="住宿舒适"><span class="rating rating--comfort"><i style="--r:68%"></i>6.8</span></td>
+            <td data-label="zk 雪票"><span class="tag tag--yes">✅ 30/天</span></td>
+            <td data-label="一句话结论" class="verdict-cell">雪质最好；比雪如意高铁版贵 63，但雪场高一档。</td>
+          </tr>
+          <tr>
+            <td data-label="方案"><span class="plan-name"><i class="plan-dot" style="background:#8a6d3b;"></i><span>崇礼雪如意<span class="plan-sub">最便宜；酒店到缆车要班车</span></span></span></td>
+            <td data-label="人均总价" class="num"><strong>¥4,267</strong></td>
+            <td data-label="雪场体验"><span class="rating rating--snow"><i style="--r:80%"></i>8.0</span></td>
+            <td data-label="交通">5h</td>
+            <td data-label="住宿舒适"><span class="rating rating--comfort"><i style="--r:70%"></i>7.0</span></td>
+            <td data-label="zk 雪票"><span class="tag tag--warn">⚠️ 套餐含票</span></td>
+            <td data-label="一句话结论" class="verdict-cell">高铁版比北大湖便宜 63；租车版更贵；酒店到缆车要班车。</td>
+          </tr>
+          <tr>
+            <td data-label="方案"><span class="plan-name"><i class="plan-dot" style="background:#6d58a8;"></i><span>松花湖<span class="plan-sub">舒适版北大湖</span></span></span></td>
+            <td data-label="人均总价" class="num"><strong>¥4,887</strong></td>
+            <td data-label="雪场体验"><span class="rating rating--snow"><i style="--r:83%"></i>8.3</span></td>
+            <td data-label="交通">4.5h</td>
+            <td data-label="住宿舒适"><span class="rating rating--comfort"><i style="--r:88%"></i>8.8</span></td>
+            <td data-label="zk 雪票"><span class="tag tag--no">— 无免票</span></td>
+            <td data-label="一句话结论" class="verdict-cell">吃住更成熟，但没有明确 zk 免票。</td>
+          </tr>
+          <tr>
+            <td data-label="方案"><span class="plan-name"><i class="plan-dot" style="background:#1c8a78;"></i><span>长白山万达<span class="plan-sub">度假感最好</span></span></span></td>
+            <td data-label="人均总价" class="num"><strong>¥4,833</strong></td>
+            <td data-label="雪场体验"><span class="rating rating--snow"><i style="--r:75%"></i>7.5</span></td>
+            <td data-label="交通">5h</td>
+            <td data-label="住宿舒适"><span class="rating rating--comfort"><i style="--r:95%"></i>9.5</span></td>
+            <td data-label="zk 雪票"><span class="tag tag--no">— 按成人票</span></td>
+            <td data-label="一句话结论" class="verdict-cell">温泉、水乐园、机场接驳；雪道偏缓。</td>
+          </tr>
+          <tr>
+            <td data-label="方案"><span class="plan-name"><i class="plan-dot" style="background:#c46a12;"></i><span>崇礼太舞<span class="plan-sub">两间双人房；不划算</span></span></span></td>
+            <td data-label="人均总价" class="num"><strong>¥5,651</strong></td>
+            <td data-label="雪场体验"><span class="rating rating--snow"><i style="--r:76%"></i>7.6</span></td>
+            <td data-label="交通">5h</td>
+            <td data-label="住宿舒适"><span class="rating rating--comfort"><i style="--r:85%"></i>8.5</span></td>
+            <td data-label="zk 雪票"><span class="tag tag--no">— 按成人票</span></td>
+            <td data-label="一句话结论" class="verdict-cell">3 人必须两间双人房；5,651/人，不划算。</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">人均总价含往返机票、4 晚住宿+雪票、餐饮、接驳、自带装备、保险杂费。北大湖当前按租车 ¥1,000/4 天全包、民宿 ¥200/晚。机票：长春 ¥1,200、长白山 ¥1,600、北京 ¥1,300（均为往返/人，估算）。雪如意按高铁 ¥700/3 人计；太舞按两间双人房 + 高铁；租车 ¥1,200/3 人，人均 +167。雪场/舒适为主观评分（10 分制）；交通为在途时间，不含候机。</p>
+
+    <div class="chart-card reveal">
+      <div class="chart-card__head">
+        <h3>钱 vs 雪：这次谁在“值得”区间？</h3>
+        <span>横轴 = 人均总价 · 纵轴 = 雪场体验 · 气泡 = 住宿舒适度</span>
+      </div>
+      <p class="chart-hint">手机上可左右滑动查看完整图表 →</p>
+      <div class="chart-scroll">
+        <svg id="scatterChart" viewBox="0 0 820 440" role="img" aria-label="五个滑雪方案的人均总价与雪场体验散点图">
+          <title>人均总价与雪场体验对比</title>
+        </svg>
+      </div>
+      <p class="chart-note">北大湖当前 4,330/9.2；雪如意高铁版 4,267/8.0，只便宜 63；太舞两间房 5,651/7.6，不划算。</p>
+    </div>
+
+    <div class="choose-grid reveal">
+      <div class="choose">
+        <div class="choose__label">IF / 雪质优先</div>
+        <h4>北大湖 · 当前</h4>
+        <p>4,330/人，雪场 9.2；票、住、车都低。这次不用换。</p>
+      </div>
+      <div class="choose">
+        <div class="choose__label">IF / 度假优先</div>
+        <h4>长白山万达</h4>
+        <p>zk♥louis 想泡温泉、玩水乐园、吃住一站式，选它；雪道偏缓。</p>
+      </div>
+      <div class="choose">
+        <div class="choose__label">IF / 换雪场</div>
+        <h4>崇礼雪如意</h4>
+        <p>4,267/人（高铁），只比北大湖便宜 63；酒店到缆车要班车，雪场 8.0。</p>
+      </div>
+      <div class="choose">
+        <div class="choose__label">IF / 舒适优先</div>
+        <h4>松花湖</h4>
+        <p>4,887/人，吃住更成熟，雪场 8.3；适合想住得舒服、少折腾的团队。</p>
+      </div>
+    </div>
+
+    <div class="reveal" style="margin-top: 48px;">
+      <p class="kicker">Chongli, if you want a plan B</p>
+      <h3 style="font-family: var(--font-serif); font-size: clamp(1.4rem, 2.8vw, 2.1rem); letter-spacing: -.025em; margin-bottom: 8px;">崇礼备选：雪如意略便宜，太舞两间房不划算</h3>
+      <p style="color: var(--muted); font-size: .88rem; line-height: 1.85; max-width: 800px; margin-bottom: 16px;">
+        如果长春机票涨、或者想换个雪场，崇礼是交通最顺的 Plan B：杭州飞北京约 2 小时，北京北→太子城高铁约 1 小时 20 分（二等座 ¥79–99），太子城站有免费接驳。
+        雪如意双人山居 4 晚 ¥2,500（含 2 张票/天），你们 3 人买 2 份 = ¥5,000。机票按 ¥1,300/人；高铁北京北→太子城 ¥79–99/人/程，3 人往返约 ¥540，加机场接驳约 ¥160，合计约 ¥700；租车机场-崇礼约 200 km，按 ¥1,200/3 人 = ¥400/人。按同样 3 人、4 晚、3 个雪日估算：
+      </p>
+      <div class="table-wrap aa-wrap">
+        <table class="aa-table" aria-label="崇礼雪场备选对比">
+          <thead>
+            <tr><th>雪场</th><th>4 晚住滑</th><th class="num">3 人总价（高铁）</th><th class="num">人均（高铁）</th><th>说明</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="雪场"><strong>雪如意</strong></td>
+              <td data-label="4 晚住滑">双人山居 4 晚 ¥2,500<br>买 2 份给 3 人</td>
+              <td class="num" data-label="3 人总价">约 ¥12,800</td>
+              <td class="num" data-label="人均">¥4,267</td>
+              <td data-label="说明">最便宜；酒店到缆车要班车；雪场 8.0；一人一张票，另一张浪费。</td>
+            </tr>
+            <tr>
+              <td data-label="雪场"><strong>太舞</strong></td>
+              <td data-label="4 晚住滑">双人房 × 2（C 栋）<br>4 晚约 ¥9,152</td>
+              <td class="num" data-label="3 人总价">约 ¥16,952</td>
+              <td class="num" data-label="人均">¥5,651</td>
+              <td data-label="说明">3 人不能住一间家庭房；必须两间双人房，贵；高铁太子城。</td>
+            </tr>
+            <tr>
+              <td data-label="雪场"><strong>万龙</strong></td>
+              <td data-label="4 晚住滑">双人 1 住 1 滑<br>¥1,499–1,899/晚</td>
+              <td class="num" data-label="3 人总价">约 ¥17,596</td>
+              <td class="num" data-label="人均">约 ¥5,865</td>
+              <td data-label="说明">雪质最好；但 3 人需补房 + 补票，zk 没有免票，反而贵。</td>
+            </tr>
+            <tr>
+              <td data-label="雪场"><strong>云顶</strong></td>
+              <td data-label="4 晚住滑">双人 1 住 1 滑<br>¥1,538–1,758/晚</td>
+              <td class="num" data-label="3 人总价">约 ¥17,910</td>
+              <td class="num" data-label="人均">约 ¥5,970</td>
+              <td data-label="说明">公园/夜滑强；3 人也要补房 + 补票；风大冰面。</td>
+            </tr>
+            <tr>
+              <td data-label="雪场"><strong>富龙</strong></td>
+              <td data-label="4 晚住滑">3 人家庭房<br>¥2,098–2,198/晚</td>
+              <td class="num" data-label="3 人总价">约 ¥17,210</td>
+              <td class="num" data-label="人均">约 ¥5,737</td>
+              <td data-label="说明">离县城近、夜滑方便；雪道规模一般，价格也不低。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">为什么雪如意略便宜：2,500 是双人 4 晚，含 2 张票/天；你们 3 人买 2 份 = 5,000，一人用一张，另一张浪费，仍比“单房 + 4 天票”便宜。太舞的家庭四人间不适用（你不和情侣同住），两间双人房约 9,152，人均 5,651，已经不划算；万龙/云顶 3 人也要补房补票；富龙县城方便。以上按高铁计算；租车版每行总价 +500、人均 +167。机票/高铁/餐饮/杂费估算，装备自带，实际以预订页为准。</p>
+    </div>
+
+    <div class="callout callout--plain reveal">
+      <span class="callout__label">你一个人怎么买？</span>
+      再买一份双人套餐 2,500，当单间用，只用一个雪票；住宿 + 票 5,000，全队高铁总价约 12,800，人均 4,267；租车约 13,300，人均 4,433。单房 + 4 天票约 2,700–3,100，更贵；便宜酒店 + 票约 2,200–2,600，但要接驳/折腾。结论：第二份双人套餐。
+    </div>
+
+    <div class="reveal" style="margin-top: 38px;">
+      <p class="kicker">Xueruyi, itemized</p>
+      <h3 style="font-family: var(--font-serif); font-size: clamp(1.4rem, 2.8vw, 2rem); letter-spacing: -.025em; margin-bottom: 8px;">雪如意，按北大湖同款算法</h3>
+      <p style="color: var(--muted); font-size: .86rem; line-height: 1.8; max-width: 760px; margin-bottom: 14px;">
+        总价约 ¥12,800（高铁）= 机票 3,900 + 高铁 700 + 住滑 5,000 + 吃 2,700 + 杂 500；人均 4,267。租车版约 ¥13,300，人均 4,433。
+        下面是“谁买套餐谁付”的分法：
+      </p>
+      <div class="table-wrap aa-wrap">
+        <table class="aa-table" aria-label="雪如意分账">
+          <thead>
+            <tr><th>项目</th><th class="num">你</th><th class="num">louis</th><th class="num">zk</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="项目">机票</td>
+              <td class="num" data-label="你">¥1,300</td>
+              <td class="num" data-label="louis">¥1,300</td>
+              <td class="num" data-label="zk">¥1,300</td>
+            </tr>
+            <tr>
+              <td data-label="项目">高铁</td>
+              <td class="num" data-label="你">¥233</td>
+              <td class="num" data-label="louis">¥233</td>
+              <td class="num" data-label="zk">¥233</td>
+            </tr>
+            <tr>
+              <td data-label="项目">住滑套餐</td>
+              <td class="num" data-label="你">¥2,500</td>
+              <td class="num" data-label="louis">¥1,250</td>
+              <td class="num" data-label="zk">¥1,250</td>
+            </tr>
+            <tr>
+              <td data-label="项目">吃 + 杂</td>
+              <td class="num" data-label="你">¥1,067</td>
+              <td class="num" data-label="louis">¥1,067</td>
+              <td class="num" data-label="zk">¥1,067</td>
+            </tr>
+            <tr class="total">
+              <td data-label="项目">合计</td>
+              <td class="num" data-label="你">¥5,100</td>
+              <td class="num" data-label="louis">¥3,850</td>
+              <td class="num" data-label="zk">¥3,850</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note">这是“谁买套餐谁付”：你一个人扛一份 2,500，情侣两人分一份；所以你比他们多 1,250（单间 + 浪费一张票）。如果三人全均摊，每人 4,267，情侣合计 8,534。租车版每人 4,433。你们自己选。</p>
+    </div>
+
+    <div class="callout callout--plain reveal">
+      <span class="callout__label">机票敏感度</span>
+      如果长春机票涨到 ¥1,500/人，北大湖当前人均约 <strong>¥4,630</strong>；涨到 ¥1,800，约 <strong>¥4,930</strong>。雪如意高铁版 4,267、太舞两间房 5,651，这时雪如意才有明显价格优势；但酒店到缆车要坐班车。
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     06 ACTION
+     ========================================================= -->
+<section class="section" id="action">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">06 <span>/</span> 执行</div>
+      <div>
+        <h2 class="section__title">保留这个方案，<br>确认 <em>三件事</em>。</h2>
+        <p class="section__lead">
+          不用换房型，也不用折腾大巴。租车 1,000 已含机场-雪场；再确认油/停车/雪胎、民宿/雪场停车、AA 规则，然后就可以订了。
+        </p>
+      </div>
+    </div>
+
+    <div class="recommend">
+      <div class="plan-card reveal">
+        <div class="plan-card__head">
+          <div>
+            <h3>北大湖 · 4 晚 3 雪日</h3>
+            <p>2027.01.07—01.11 / 3 人 / 杭州往返</p>
+          </div>
+          <span class="plan-card__badge">现方案</span>
+        </div>
+
+        <div class="plan-line">
+          <span class="plan-line__label">住</span>
+          <span class="plan-line__body"><b>套餐房（zk♥louis）+ 民宿（你）× 4 晚</b><br>套餐每晚 2 张票；民宿 ¥200/晚</span>
+          <span class="plan-line__value">¥5,190</span>
+        </div>
+        <div class="plan-line">
+          <span class="plan-line__label">行</span>
+          <span class="plan-line__body"><b>租车 4 天</b><br>含机场-雪场；油/停车/雪胎是否也包，按报价再确认；自己开</span>
+          <span class="plan-line__value">¥1,000</span>
+        </div>
+        <div class="plan-line">
+          <span class="plan-line__label">票</span>
+          <span class="plan-line__body"><b>套餐每晚 2 张 + zk 30/天</b><br>2 张覆盖你和 louis；zk 滑 3 天买 3 张 = 90</span>
+          <span class="plan-line__value">已含</span>
+        </div>
+        <div class="plan-line">
+          <span class="plan-line__label">吃</span>
+          <span class="plan-line__body"><b>早餐酒店，午/晚山上或山下</b><br>按 ¥180/人/天；山上餐饮偏贵，留一点弹性</span>
+          <span class="plan-line__value">¥2,700</span>
+        </div>
+        <div class="plan-line">
+          <span class="plan-line__label">装备</span>
+          <span class="plan-line__body"><b>全员自带板/鞋/头盔</b><br>没有租赁成本；出发前检查固定器、雪蜡、护具</span>
+          <span class="plan-line__value">¥0</span>
+        </div>
+        <div class="plan-line">
+          <span class="plan-line__label">保险</span>
+          <span class="plan-line__body"><b>滑雪意外险 + 杂费（含邮寄雪板）</b><br>30–60/人；雪板快递、行李、温泉另计</span>
+          <span class="plan-line__value">¥500</span>
+        </div>
+        <div class="plan-line">
+          <span class="plan-line__label">分账</span>
+          <span class="plan-line__body"><b>套餐你和 louis 各 2,150；其余 3 人均摊</b><br>不含民宿：你/louis 各 4,780；zk 2,630；民宿 800 待定</span>
+          <span class="plan-line__value">—</span>
+        </div>
+
+        <div class="plan-total">
+          <div>
+            <div class="plan-total__label">TOTAL / 3 PAX · 自带装备</div>
+            <div class="plan-total__value">¥12,990<small>人均 ¥4,330</small></div>
+          </div>
+          <div class="plan-total__save">
+            住 + 票 + 车
+            <b>¥6,190</b>
+            占 48%
+          </div>
+        </div>
+      </div>
+
+      <aside class="reveal">
+        <div class="checklist">
+          <div class="checklist__head">BOOKING CHECKLIST / 按时间做</div>
+          <div class="checklist__item"><span class="checklist__box">✓</span><span><b>现在：</b>确认租车 1,000 的油/停车/雪胎；问民宿/雪场停车；查 1/7–11 机票。</span></div>
+          <div class="checklist__item"><span class="checklist__box">✓</span><span><b>11 月底：</b>出票；订房；zk 完成学信网认证；订租车。</span></div>
+          <div class="checklist__item"><span class="checklist__box">✓</span><span><b>12 月：</b>确认雪道开放 / 大冬会管控；买滑雪意外险；检查装备。</span></div>
+          <div class="checklist__item"><span class="checklist__box">✓</span><span><b>1/6：</b>值机；看天气；打包面罩、雪镜、暖宝宝、护具。</span></div>
+          <div class="checklist__item"><span class="checklist__box">✓</span><span><b>出发前：</b>把分账规则发群里；确认取车时间；存民宿电话。</span></div>
+        </div>
+
+        <div class="fallback">
+          <div class="fallback__row"><b>民宿没停车</b><span>换一家，或确认雪场停车；你们自己开，停车是刚需。</span></div>
+          <div class="fallback__row"><b>航班太晚</b><span>机场附近住一晚，第二天再开；别疲劳开冬季山路。</span></div>
+          <div class="fallback__row"><b>zk 第 4 天</b><span>1/11 上午滑就再买 1 张 30；不滑就 3 张，90。</span></div>
+          <div class="fallback__row"><b>机票 &gt; ¥1,500</b><span>雪如意高铁版 4,267、租车 4,433；太舞两间房 5,651，不划算。</span></div>
+        </div>
+      </aside>
+    </div>
+
+    <div id="calc" style="margin-top: 54px;" class="reveal">
+      <p class="kicker">Run your numbers</p>
+      <h3 style="font-family: var(--font-serif); font-size: clamp(1.5rem, 3vw, 2.2rem); letter-spacing: -.025em; margin-bottom: 6px;">把你的真实报价填进去</h3>
+      <p style="color: var(--muted); font-size: .9rem; max-width: 760px; margin-bottom: 20px;">默认是“当前方案”：住+票 5,190 + 租车 1,000。拿到真实报价后，改下面几个数，看总价和人均怎么变。</p>
+
+      <div class="calculator">
+        <form class="calc-form" id="calcForm" onsubmit="return false;">
+          <h3>输入</h3>
+          <p>3 人、5 天 4 晚、3 个雪日；金额均为人民币。</p>
+          <div class="calc-fields">
+            <div class="calc-field">
+              <label for="flightPrice">机票单价 / 人 <output id="flightOut">¥1,200</output></label>
+              <input type="range" id="flightPrice" min="800" max="2000" step="50" value="1200">
+            </div>
+
+            <div class="calc-field">
+              <label for="lodgingSelect">住 + 雪票（整单）</label>
+              <select id="lodgingSelect">
+                <option value="5190" selected>北大湖 · 套餐房 + 民宿 ¥5,190</option>
+                <option value="8600">北大湖 · 两间套餐房 ¥8,600</option>
+                <option value="7500">松花湖 · 两居/两间（含票）¥7,500</option>
+                <option value="6500">长白山 · 锦华两居（含票）¥6,500</option>
+                <option value="9152">太舞 · 两间双人房（含票）¥9,152</option>
+              </select>
+            </div>
+
+            <div class="calc-field">
+              <label for="transferSelect">接驳 / 租车</label>
+              <select id="transferSelect">
+                <option value="1000" selected>北大湖 · 租车 4 天全包 ¥1,000</option>
+                <option value="360">松花湖 · 机场大巴 ¥360</option>
+                <option value="0">长白山 · 免费接驳 ¥0</option>
+                <option value="700">太舞 · 高铁 + 接驳 ¥700</option>
+              </select>
+            </div>
+
+            <div class="calc-field">
+              <label for="foodPrice">餐饮 / 人 / 天 <output id="foodOut">¥180</output></label>
+              <input type="range" id="foodPrice" min="100" max="300" step="10" value="180">
+            </div>
+
+          </div>
+        </form>
+
+        <div class="calc-result">
+          <div>
+            <div class="calc-result__label">ESTIMATED TOTAL / 3 PAX</div>
+            <div class="calc-result__value" id="calcTotal">¥12,990</div>
+            <div class="calc-result__sub">人均 <b id="calcPer">¥4,330</b> · 点击下方按钮可恢复默认</div>
+            <div class="calc-result__delta" id="calcDelta">当前方案基准</div>
+          </div>
+
+          <div class="calc-breakdown" id="calcBreakdown">
+            <div><span>机票 × 3</span><b>¥3,600</b></div>
+            <div><span>住 + 雪票</span><b>¥5,190</b></div>
+            <div><span>餐饮 × 3 × 5</span><b>¥2,700</b></div>
+            <div><span>接驳</span><b>¥1,000</b></div>
+            <div><span>保险+杂费（含邮寄雪板）</span><b>¥500</b></div>
+          </div>
+
+          <button class="calc-reset" type="button" id="calcReset">恢复默认</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <h3>数据与假设</h3>
+        <p>
+          这是一份决策底稿，不是报价。3 人（你、louis、zk）、2027.1.7–1.11、4 晚、3 个雪日；
+          不含夜场、教练、购物、酒水。机票 ¥1,200/人；住滑套餐 ¥4,300（每晚 2 张雪票）；
+          民宿 ¥200/晚；zk 雪票 30/天 × 3 = 90；租车 4 天 ¥1,000 全包（含机场-雪场）。
+          餐饮 ¥180/人/天；装备自带；杂费 ¥500。
+        </p>
+        <p style="margin-top: 12px; color: rgba(246,243,234,.42); font-size: .74rem;">
+          价格为动态数据，出发前请以北大湖官方小程序、酒店和航司的实时报价为准。
+        </p>
+      </div>
+      <div>
+        <h3>主要来源</h3>
+        <ul class="footer__sources">
+          <li><a href="https://news.qq.com/rain/a/20251112A01LRN00" target="_blank" rel="noopener">吉林两大雪场龙嘉机场专线（T979/T989）</a></li>
+          <li><a href="https://m.cc.bendibao.com/tour/68011.shtm" target="_blank" rel="noopener">北大湖大学生免费滑雪规则</a></li>
+          <li><a href="https://www.sohu.com/a/1097591861_123753" target="_blank" rel="noopener">大冬会雪场分区管控、赛时不封闭</a></li>
+          <li><a href="https://www.wingontravel.com/hotel/detail?HotelID=52749677" target="_blank" rel="noopener">北大湖住滑套餐实名制/雪票规则</a></li>
+          <li><a href="https://chongliskiing.com/packages/taiwu" target="_blank" rel="noopener">太舞 2026–27 住滑套餐价格表</a></li>
+          <li><a href="https://www.chonglihuaxue.com/info.asp?id=205" target="_blank" rel="noopener">雪如意 2026–27 住滑套餐价格表</a></li>
+          <li><a href="https://chongliskiing.com/packages/xueruyi" target="_blank" rel="noopener">雪如意双人住滑套餐参考</a></li>
+          <li><a href="https://www.chonglihuaxue.com/info.asp?id=225" target="_blank" rel="noopener">雪如意 2026–27 雪票价格表</a></li>
+          <li><a href="https://www.chonglihuaxue.com/info.asp?id=210" target="_blank" rel="noopener">万龙 2026–27 住滑套餐价格表</a></li>
+          <li><a href="https://www.chonglihuaxue.com/info.asp?id=209" target="_blank" rel="noopener">云顶 2026–27 住滑套餐价格表</a></li>
+          <li><a href="https://www.chonglihuaxue.com/info.asp?id=207" target="_blank" rel="noopener">富龙 2026–27 住滑套餐价格表</a></li>
+          <li><a href="https://trains.ctrip.com/TrainBooking/beijingbei-taizicheng/gaotie/" target="_blank" rel="noopener">北京北—太子城高铁票价/时刻</a></li>
+          <li><a href="https://www.sina.cn/news/article/niwuvct9389401.html" target="_blank" rel="noopener">长白山万达 11 店住滑套餐解析</a></li>
+          <li><a href="https://www.smzdm.com/p/185353685/" target="_blank" rel="noopener">松花湖青山/瞻云/王子住滑套餐</a></li>
+          <li><a href="http://mp.weixin.qq.com/s?__biz=MzUyMDg4MTU2NQ==&mid=2247497888&idx=1&sn=7838577e30a94eb6c5f71f8e5f04e7cc" target="_blank" rel="noopener">北大湖 26–27 早鸟房券价格参考</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>杭州 → 长春 → 北大湖 · 2027.01.07—01.11</span>
+      <span class="mono">A decision memo, not a quote.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* =========================================================
+   Hangzhou → Beidahu 2027 / interactions
+   ========================================================= */
+
+(function () {
+  "use strict";
+
+  document.documentElement.classList.add("js");
+
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+  const money = (n) => "¥" + Math.round(n).toLocaleString("zh-CN");
+
+  /* ---------- reading progress ---------- */
+
+  const progressBar = $("#progressBar");
+  const updateProgress = () => {
+    if (!progressBar) return;
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - window.innerHeight;
+    const pct = max > 0 ? Math.min(100, (window.scrollY / max) * 100) : 0;
+    progressBar.style.width = pct + "%";
+  };
+  window.addEventListener("scroll", updateProgress, { passive: true });
+  window.addEventListener("resize", updateProgress);
+  updateProgress();
+
+  /* ---------- reveal on scroll ---------- */
+
+  const reveals = $$(".reveal");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  if (reduceMotion || !("IntersectionObserver" in window)) {
+    reveals.forEach((el) => el.classList.add("is-visible"));
+  } else {
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+    );
+    reveals.forEach((el) => io.observe(el));
+  }
+
+  /* ---------- scatter chart ---------- */
+
+  const chart = $("#scatterChart");
+
+  if (chart) {
+    const svg = chart;
+
+    const data = [
+      {
+        key: "xueruyi",
+        name: "崇礼雪如意",
+        price: 4267,
+        snow: 8.0,
+        comfort: 7.0,
+        color: "#8a6d3b",
+        label: "雪如意",
+        labelPos: "above",
+      },
+      {
+        key: "taiwu",
+        name: "崇礼太舞",
+        price: 5651,
+        snow: 7.6,
+        comfort: 8.5,
+        color: "#c46a12",
+        label: "太舞",
+        labelPos: "above",
+      },
+      {
+        key: "beidahu",
+        name: "北大湖 · 当前",
+        price: 4330,
+        snow: 9.2,
+        comfort: 6.8,
+        color: "#2d63c9",
+        label: "北大湖 · 当前",
+        labelPos: "right",
+      },
+      {
+        key: "changbaishan",
+        name: "长白山万达",
+        price: 4833,
+        snow: 7.5,
+        comfort: 9.5,
+        color: "#1c8a78",
+        label: "长白山",
+        labelPos: "right",
+      },
+      {
+        key: "songhua",
+        name: "松花湖",
+        price: 4887,
+        snow: 8.3,
+        comfort: 8.8,
+        color: "#6d58a8",
+        label: "松花湖",
+        labelPos: "above",
+      },
+    ];
+
+    const W = 820;
+    const H = 440;
+    const m = { top: 34, right: 34, bottom: 62, left: 62 };
+    const innerW = W - m.left - m.right;
+    const innerH = H - m.top - m.bottom;
+
+    const xMin = 4000;
+    const xMax = 5800;
+    const yMin = 7.0;
+    const yMax = 9.6;
+
+    const sx = (v) => m.left + ((v - xMin) / (xMax - xMin)) * innerW;
+    const sy = (v) => m.top + innerH - ((v - yMin) / (yMax - yMin)) * innerH;
+
+    const svgNS = "http://www.w3.org/2000/svg";
+    const el = (tag, attrs = {}, text = "") => {
+      const node = document.createElementNS(svgNS, tag);
+      Object.entries(attrs).forEach(([k, v]) => node.setAttribute(k, v));
+      if (text) node.textContent = text;
+      return node;
+    };
+
+    // background
+    svg.append(
+      el("rect", {
+        x: 0,
+        y: 0,
+        width: W,
+        height: H,
+        rx: 12,
+        fill: "#fbf9f3",
+      })
+    );
+
+    // "worth it" band
+    const bandX = sx(xMin);
+    const bandY = sy(9.55);
+    const bandW = sx(4500) - sx(xMin);
+    const bandH = sy(8.7) - sy(9.55);
+    svg.append(
+      el("rect", {
+        x: bandX,
+        y: bandY,
+        width: bandW,
+        height: bandH,
+        rx: 8,
+        fill: "#e8f2ec",
+        opacity: "0.7",
+      })
+    );
+    svg.append(
+      el(
+        "text",
+        {
+          x: bandX + 12,
+          y: bandY + 18,
+          fill: "#2b7a5f",
+          "font-size": "10.5",
+          "font-family": "SFMono-Regular, Consolas, monospace",
+          "letter-spacing": "0.08em",
+        },
+        "高体验 / 低价格"
+      )
+    );
+
+    // grid
+    const xTicks = [4200, 4500, 4800, 5100, 5400, 5700];
+    const yTicks = [7.0, 7.5, 8.0, 8.5, 9.0, 9.5];
+
+    xTicks.forEach((tick) => {
+      svg.append(
+        el("line", {
+          x1: sx(tick),
+          y1: m.top,
+          x2: sx(tick),
+          y2: m.top + innerH,
+          stroke: "#e6e0d3",
+          "stroke-width": "1",
+        })
+      );
+      svg.append(
+        el(
+          "text",
+          {
+            x: sx(tick),
+            y: m.top + innerH + 22,
+            "text-anchor": "middle",
+            fill: "#8b9790",
+            "font-size": "10.5",
+            "font-family": "SFMono-Regular, Consolas, monospace",
+          },
+          "¥" + (tick / 1000).toFixed(1) + "k"
+        )
+      );
+    });
+
+    yTicks.forEach((tick) => {
+      svg.append(
+        el("line", {
+          x1: m.left,
+          y1: sy(tick),
+          x2: m.left + innerW,
+          y2: sy(tick),
+          stroke: "#e6e0d3",
+          "stroke-width": "1",
+        })
+      );
+      svg.append(
+        el(
+          "text",
+          {
+            x: m.left - 12,
+            y: sy(tick) + 4,
+            "text-anchor": "end",
+            fill: "#8b9790",
+            "font-size": "10.5",
+            "font-family": "SFMono-Regular, Consolas, monospace",
+          },
+          tick.toFixed(1)
+        )
+      );
+    });
+
+    // axes
+    svg.append(
+      el("line", {
+        x1: m.left,
+        y1: m.top + innerH,
+        x2: m.left + innerW,
+        y2: m.top + innerH,
+        stroke: "#b9b3a4",
+        "stroke-width": "1.2",
+      })
+    );
+    svg.append(
+      el("line", {
+        x1: m.left,
+        y1: m.top,
+        x2: m.left,
+        y2: m.top + innerH,
+        stroke: "#b9b3a4",
+        "stroke-width": "1.2",
+      })
+    );
+
+    svg.append(
+      el(
+        "text",
+        {
+          x: m.left + innerW,
+          y: H - 16,
+          "text-anchor": "end",
+          fill: "#65736d",
+          "font-size": "11",
+        },
+        "人均总价（元，自带装备）"
+      )
+    );
+    svg.append(
+      el(
+        "text",
+        {
+          x: 16,
+          y: m.top + innerH / 2,
+          "text-anchor": "middle",
+          transform: `rotate(-90 16 ${m.top + innerH / 2})`,
+          fill: "#65736d",
+          "font-size": "11",
+        },
+        "雪场体验"
+      )
+    );
+
+    // budget line
+    svg.append(
+      el("line", {
+        x1: sx(5000),
+        y1: m.top,
+        x2: sx(5000),
+        y2: m.top + innerH,
+        stroke: "#c46a12",
+        "stroke-width": "1",
+        "stroke-dasharray": "3 5",
+        opacity: "0.55",
+      })
+    );
+    svg.append(
+      el(
+        "text",
+        {
+          x: sx(5000) + 6,
+          y: m.top + 12,
+          fill: "#c46a12",
+          "font-size": "9.5",
+          "font-family": "SFMono-Regular, Consolas, monospace",
+        },
+        "¥5,000"
+      )
+    );
+
+    // points
+    data.forEach((d) => {
+      const cx = sx(d.price);
+      const cy = sy(d.snow);
+      const r = 8 + (d.comfort - 6) * 4;
+
+      const g = el("g", {});
+      g.append(
+        el("circle", {
+          cx,
+          cy,
+          r: r + 5,
+          fill: d.color,
+          opacity: "0.10",
+        })
+      );
+      g.append(
+        el("circle", {
+          cx,
+          cy,
+          r,
+          fill: d.color,
+          stroke: d.color,
+          "stroke-width": "2",
+          opacity: "0.9",
+        })
+      );
+
+      let tx = cx;
+      let ty = cy - r - 16;
+      let anchor = "middle";
+      if (d.labelPos === "right") {
+        tx = cx + r + 9;
+        ty = cy + 4;
+        anchor = "start";
+      }
+      if (d.labelPos === "left") {
+        tx = cx - r - 9;
+        ty = cy + 4;
+        anchor = "end";
+      }
+
+      g.append(
+        el(
+          "text",
+          {
+            x: tx,
+            y: ty,
+            "text-anchor": anchor,
+            fill: "#15211e",
+            "font-size": "11.5",
+            "font-weight": "600",
+            "font-family": "PingFang SC, Microsoft YaHei, sans-serif",
+          },
+          d.label
+        )
+      );
+      g.append(
+        el(
+          "text",
+          {
+            x: tx,
+            y: ty + 14,
+            "text-anchor": anchor,
+            fill: "#65736d",
+            "font-size": "10",
+            "font-family": "SFMono-Regular, Consolas, monospace",
+          },
+          money(d.price) + " / " + d.snow.toFixed(1)
+        )
+      );
+
+      g.append(el("title", {}, `${d.name}：人均 ${money(d.price)}，雪场体验 ${d.snow}`));
+      svg.append(g);
+    });
+
+    // corner annotation
+    svg.append(
+      el(
+        "text",
+        {
+          x: m.left + innerW - 2,
+          y: m.top - 12,
+          "text-anchor": "end",
+          fill: "#8b9790",
+          "font-size": "10",
+        },
+        "越往左上，越值得"
+      )
+    );
+  }
+
+  /* ---------- calculator ---------- */
+
+  const calc = {
+    flight: $("#flightPrice"),
+    flightOut: $("#flightOut"),
+    lodging: $("#lodgingSelect"),
+    transfer: $("#transferSelect"),
+    food: $("#foodPrice"),
+    foodOut: $("#foodOut"),
+    total: $("#calcTotal"),
+    per: $("#calcPer"),
+    delta: $("#calcDelta"),
+    breakdown: $("#calcBreakdown"),
+    reset: $("#calcReset"),
+  };
+
+  if (calc.flight && calc.total) {
+    const CURRENT_TOTAL = 12990;
+    const MISC = 500;
+
+    const update = () => {
+      const flight = Number(calc.flight.value);
+      const lodging = Number(calc.lodging.value);
+      const transfer = Number(calc.transfer.value);
+      const food = Number(calc.food.value);
+
+      const flightTotal = flight * 3;
+      const foodTotal = food * 3 * 5;
+      const total = flightTotal + lodging + foodTotal + transfer + MISC;
+
+      calc.flightOut.textContent = money(flight);
+      calc.foodOut.textContent = money(food);
+      calc.total.textContent = money(total);
+      calc.per.textContent = money(total / 3);
+
+      const diff = CURRENT_TOTAL - total;
+      if (Math.abs(diff) < 1) {
+        calc.delta.textContent = "当前方案基准";
+      } else if (diff > 0) {
+        calc.delta.textContent = "比当前方案省 " + money(diff);
+      } else {
+        calc.delta.textContent = "比当前方案贵 " + money(Math.abs(diff));
+      }
+
+      calc.breakdown.innerHTML = [
+        ["机票 × 3", money(flightTotal)],
+        ["住 + 雪票", money(lodging)],
+        ["餐饮 × 3 × 5", money(foodTotal)],
+        ["接驳", money(transfer)],
+        ["保险+杂费（含邮寄雪板）", money(MISC)],
+      ]
+        .map(
+          ([label, value]) =>
+            `<div><span>${label}</span><b>${value}</b></div>`
+        )
+        .join("");
+    };
+
+    [calc.flight, calc.food].forEach((input) => {
+      input.addEventListener("input", update);
+    });
+    [calc.lodging, calc.transfer].forEach((input) => {
+      input.addEventListener("change", update);
+    });
+
+    calc.reset.addEventListener("click", () => {
+      calc.flight.value = "1200";
+      calc.lodging.value = "5190";
+      calc.transfer.value = "1000";
+      calc.food.value = "180";
+      update();
+    });
+
+    update();
+  }
+})();
+
+</script>
+</body>
+</html>
