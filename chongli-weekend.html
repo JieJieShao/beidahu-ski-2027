@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>周五下班，去崇礼。｜杭州周末滑雪</title>
+<meta name="description" content="杭州出发的崇礼周末滑雪计划：周五下班高铁到北京，周六早班动车到太子城，雪如意住滑套餐住一晚滑两天，周日晚返程。总预算约 2,900 元。">
+<meta name="robots" content="noindex,nofollow">
+<style>
+/* =========================================================
+   Chongli weekend / 2026-27
+   ========================================================= */
+:root {
+  --ink: #15211e;
+  --ink-2: #263732;
+  --ink-soft: #43524d;
+  --muted: #65736d;
+  --faint: #8b9790;
+  --paper: #f6f3ea;
+  --paper-2: #efeadf;
+  --paper-3: #fbf9f3;
+  --pine: #0e332c;
+  --pine-2: #174b40;
+  --pine-3: #1f6b5a;
+  --orange: #c46a12;
+  --orange-soft: #f3dfc7;
+  --blue: #2d63c9;
+  --sky: #b8dfe8;
+  --red: #a94832;
+  --line: #ddd6c6;
+  --line-dark: #b9b3a4;
+  --shadow-sm: 0 4px 18px rgba(21, 33, 30, .06);
+  --shadow-md: 0 18px 50px rgba(21, 33, 30, .11);
+  --radius: 18px;
+  --font-serif: "Songti SC", "Noto Serif SC", "Source Han Serif SC", "STSong", Georgia, serif;
+  --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", system-ui, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body::selection { background: var(--orange-soft); color: var(--ink); }
+a { color: inherit; }
+img, svg { display: block; max-width: 100%; }
+p { margin: 0; }
+h1, h2, h3, h4 { margin: 0; font-weight: 600; }
+ul { margin: 0; padding: 0; list-style: none; }
+button { font: inherit; }
+
+.wrap { width: min(1180px, calc(100% - 56px)); margin: 0 auto; }
+.mono { font-family: var(--font-mono); }
+
+.skip {
+  position: fixed; top: -60px; left: 16px; z-index: 100;
+  background: var(--ink); color: var(--paper);
+  padding: 10px 14px; border-radius: 8px; text-decoration: none;
+}
+.skip:focus { top: 12px; }
+
+.progress {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 90;
+  height: 3px; background: transparent;
+}
+.progress__bar {
+  height: 100%; width: 0;
+  background: linear-gradient(90deg, var(--orange), #e2a35f);
+  transition: width .12s linear;
+}
+
+/* ---------- hero ---------- */
+.hero {
+  position: relative; overflow: hidden;
+  min-height: 790px;
+  background:
+    radial-gradient(900px 420px at 78% 18%, rgba(184, 223, 232, .16), transparent 65%),
+    linear-gradient(180deg, #123c34 0%, #0b2a24 100%);
+  color: #f6f3ea;
+}
+.hero::before {
+  content: "";
+  position: absolute; inset: 0;
+  background-image:
+    radial-gradient(circle at 12% 22%, rgba(255,255,255,.55) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 28% 48%, rgba(255,255,255,.34) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 48% 18%, rgba(255,255,255,.4) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 64% 40%, rgba(255,255,255,.28) 0 1px, transparent 1.5px),
+    radial-gradient(circle at 82% 26%, rgba(255,255,255,.42) 0 1px, transparent 1.5px);
+  background-size: 260px 180px, 340px 240px, 300px 210px, 380px 260px, 420px 300px;
+  opacity: .55; pointer-events: none;
+}
+.hero__nav {
+  position: relative; z-index: 4;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 24px 0 18px;
+  border-bottom: 1px solid rgba(246, 243, 234, .14);
+}
+.brand { display: flex; align-items: center; gap: 10px; color: #f6f3ea; text-decoration: none; font-size: .78rem; letter-spacing: .08em; }
+.brand__mark {
+  display: grid; place-items: center;
+  width: 36px; height: 36px; border: 1px solid rgba(246,243,234,.35); border-radius: 50%;
+  font-family: var(--font-mono); font-size: .65rem; letter-spacing: .02em;
+}
+.nav__links { display: flex; gap: 22px; align-items: center; }
+.nav__links a {
+  color: rgba(246, 243, 234, .66); text-decoration: none;
+  font-family: var(--font-mono); font-size: .66rem; letter-spacing: .08em;
+  transition: color .2s;
+}
+.nav__links a:hover { color: #fff; }
+.nav__index { color: rgba(246,243,234,.35); margin-right: 4px; }
+
+.hero__inner { position: relative; z-index: 3; padding-top: 82px; }
+.eyebrow {
+  color: var(--sky); font-family: var(--font-mono);
+  font-size: .7rem; letter-spacing: .16em; text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.hero h1 {
+  max-width: 900px;
+  font-family: var(--font-serif); font-weight: 500;
+  font-size: clamp(3.7rem, 8.7vw, 7.4rem);
+  line-height: .99; letter-spacing: -.055em;
+  margin-bottom: 28px;
+}
+.hero h1 em { font-style: normal; color: #e2a35f; }
+.hero__sub {
+  max-width: 720px;
+  color: rgba(246, 243, 234, .74);
+  font-size: clamp(.92rem, 1.3vw, 1.04rem);
+  line-height: 1.9;
+}
+.hero__sub strong { color: #fff; font-weight: 600; }
+.hero__meta {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0; max-width: 940px; margin-top: 44px;
+  border-top: 1px solid rgba(246,243,234,.16);
+  border-bottom: 1px solid rgba(246,243,234,.16);
+}
+.hero__meta > div { padding: 16px 18px 15px 0; border-right: 1px solid rgba(246,243,234,.12); }
+.hero__meta > div:last-child { border-right: 0; }
+.hero__meta span {
+  display: block; color: rgba(246,243,234,.42);
+  font-family: var(--font-mono); font-size: .6rem; letter-spacing: .13em;
+  margin-bottom: 7px;
+}
+.hero__meta b { display: block; font-size: .88rem; font-weight: 500; color: rgba(246,243,234,.9); }
+.hero__actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 0 20px; border-radius: 999px;
+  font-size: .78rem; font-weight: 500; text-decoration: none;
+  transition: transform .2s, background .2s, border-color .2s;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn--light { background: #f6f3ea; color: var(--ink); }
+.btn--ghost { border: 1px solid rgba(246,243,234,.32); color: #f6f3ea; }
+.btn--ghost:hover { border-color: rgba(246,243,234,.65); }
+
+.hero__stamp {
+  position: absolute; z-index: 2; right: 6%; top: 36%;
+  width: 146px; height: 146px; border: 1px solid rgba(246,243,234,.25); border-radius: 50%;
+  display: grid; place-items: center; text-align: center;
+  color: rgba(246,243,234,.58); font-family: var(--font-mono);
+  font-size: .58rem; line-height: 1.9; letter-spacing: .12em;
+  transform: rotate(8deg);
+}
+.hero__note {
+  position: absolute; z-index: 2; right: 24px; bottom: 160px;
+  writing-mode: vertical-rl;
+  color: rgba(246,243,234,.35); font-family: var(--font-mono);
+  font-size: .58rem; letter-spacing: .18em;
+}
+.hero__mountain { position: absolute; left: 0; right: 0; bottom: -2px; z-index: 1; pointer-events: none; }
+.hero__mountain svg { width: 100%; height: auto; }
+
+/* ---------- sections ---------- */
+.section { padding: 92px 0; }
+.section--paper { background: var(--paper-3); }
+.section--pine { background: var(--pine); color: #f6f3ea; }
+.section__head {
+  display: grid; grid-template-columns: 160px minmax(0, 1fr);
+  gap: 24px; align-items: start; margin-bottom: 44px;
+}
+.section__index {
+  color: var(--orange); font-family: var(--font-mono);
+  font-size: .68rem; letter-spacing: .12em; text-transform: uppercase;
+  padding-top: 8px;
+}
+.section__index span { color: var(--line-dark); margin: 0 5px; }
+.section h2 {
+  font-family: var(--font-serif); font-weight: 500;
+  font-size: clamp(2.1rem, 4.8vw, 3.65rem);
+  line-height: 1.12; letter-spacing: -.045em;
+  margin-bottom: 16px;
+}
+.section h2 em { font-style: normal; color: var(--orange); }
+.section__lead {
+  max-width: 780px; color: var(--muted);
+  font-size: .9rem; line-height: 1.9;
+}
+.section__lead strong { color: var(--ink); font-weight: 600; }
+
+.kicker {
+  color: var(--orange); font-family: var(--font-mono);
+  font-size: .66rem; letter-spacing: .14em; text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* ---------- reveal ---------- */
+.js .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+.js .reveal.is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .js .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* ---------- verdict ---------- */
+.verdict {
+  display: grid; grid-template-columns: 1.15fr .85fr;
+  gap: 36px; align-items: end;
+  padding: 34px 0 40px; border-top: 1px solid var(--line);
+}
+.verdict__text {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3.6vw, 3rem);
+  line-height: 1.35; letter-spacing: -.03em;
+}
+.verdict__text strong { color: var(--orange); font-weight: 500; }
+.verdict__aside {
+  border-left: 2px solid var(--orange);
+  padding-left: 22px;
+  color: var(--ink-soft);
+  font-size: .84rem; line-height: 1.9;
+}
+.verdict__aside strong { color: var(--ink); }
+
+.score-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.score {
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 22px 22px 20px; box-shadow: var(--shadow-sm);
+}
+.score__top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 12px; }
+.score__label { color: var(--faint); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .1em; }
+.score__num { font-family: var(--font-serif); font-size: 1.9rem; letter-spacing: -.03em; }
+.score__num small { font-family: var(--font-sans); color: var(--faint); font-size: .7rem; letter-spacing: 0; }
+.score p { color: var(--muted); font-size: .8rem; line-height: 1.8; }
+.score .tiny { color: var(--faint); font-size: .72rem; margin-top: 9px; }
+
+.callout {
+  margin-top: 22px; padding: 18px 22px;
+  border: 1px solid var(--line); border-left: 3px solid var(--orange);
+  border-radius: 0 10px 10px 0;
+  background: var(--paper-2);
+  color: var(--ink-soft); font-size: .82rem; line-height: 1.85;
+}
+.callout strong { color: var(--ink); }
+.callout__label {
+  display: inline-block; margin-right: 8px; color: var(--orange);
+  font-family: var(--font-mono); font-size: .62rem; letter-spacing: .1em;
+}
+.callout--red { border-left-color: var(--red); background: #fbf0ec; }
+.callout--red .callout__label { color: var(--red); }
+.callout--blue { border-left-color: var(--blue); background: #eef3fb; }
+.callout--blue .callout__label { color: var(--blue); }
+.callout--plain { border-left-color: var(--pine-3); background: #edf4ef; }
+.callout--plain .callout__label { color: var(--pine-3); }
+
+.quick-grid {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px; margin-top: 26px;
+  background: var(--line); border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+}
+.quick-grid > div { background: var(--paper-3); padding: 16px 18px; }
+.quick-grid span { display: block; color: var(--faint); font-family: var(--font-mono); font-size: .6rem; letter-spacing: .1em; margin-bottom: 4px; }
+.quick-grid b { display: block; font-family: var(--font-serif); font-size: 1.45rem; font-weight: 500; letter-spacing: -.02em; }
+.quick-grid small { display: block; color: var(--muted); font-size: .7rem; margin-top: 3px; }
+
+.rules {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px; margin-top: 40px;
+}
+.rule {
+  padding: 20px 20px 19px;
+  border-top: 2px solid var(--pine-3);
+  background: var(--paper);
+  border-radius: 0 0 10px 10px;
+}
+.rule__num { color: var(--orange); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .1em; }
+.rule strong { display: block; margin: 7px 0 5px; font-size: .86rem; }
+.rule p { color: var(--muted); font-size: .76rem; line-height: 1.75; }
+
+/* ---------- timeline ---------- */
+.timeline { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: stretch; }
+.day {
+  position: relative; display: flex; flex-direction: column;
+  background: var(--paper-3); border: 1px solid var(--line);
+  border-radius: var(--radius); box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.day__head { padding: 20px 22px 16px; border-bottom: 1px solid var(--line); }
+.day__head span { color: var(--orange); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .12em; }
+.day__head h3 { font-family: var(--font-serif); font-size: 1.45rem; font-weight: 500; letter-spacing: -.02em; margin: 6px 0 3px; }
+.day__head b { color: var(--faint); font-family: var(--font-mono); font-size: .62rem; font-weight: 400; letter-spacing: .06em; }
+.day__body { padding: 10px 22px 16px; flex: 1; }
+.event { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 12px; padding: 10px 0; border-bottom: 1px dashed var(--line); }
+.event:last-child { border-bottom: 0; }
+.event time { color: var(--faint); font-family: var(--font-mono); font-size: .66rem; padding-top: 2px; }
+.event b { display: block; font-size: .8rem; font-weight: 600; color: var(--ink-2); }
+.event p { color: var(--muted); font-size: .72rem; line-height: 1.65; margin-top: 2px; }
+.event--key time { color: var(--orange); }
+.event--key b { color: var(--orange); }
+.event--ski time { color: var(--pine-3); }
+.event--ski b { color: var(--pine-3); }
+.day__foot {
+  margin-top: auto; padding: 12px 22px;
+  background: var(--paper-2); color: var(--faint);
+  font-family: var(--font-mono); font-size: .62rem; letter-spacing: .03em;
+  line-height: 1.6;
+}
+
+/* ---------- tickets ---------- */
+.ticket-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.ticket {
+  position: relative; display: grid; grid-template-columns: 1fr auto;
+  gap: 14px; align-items: center;
+  padding: 20px 22px;
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+.ticket--wide { grid-column: span 2; }
+.ticket__main { min-width: 0; }
+.ticket__top { display: flex; align-items: center; gap: 9px; margin-bottom: 7px; }
+.ticket__no {
+  padding: 2px 7px; border-radius: 4px;
+  background: var(--pine); color: #fff;
+  font-family: var(--font-mono); font-size: .62rem; letter-spacing: .04em;
+}
+.ticket__label { color: var(--faint); font-family: var(--font-mono); font-size: .6rem; letter-spacing: .08em; }
+.ticket__route { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
+.ticket__route b { font-size: .88rem; font-weight: 600; }
+.ticket__route span { color: var(--faint); font-family: var(--font-mono); font-size: .66rem; }
+.ticket__times { display: flex; align-items: baseline; gap: 8px; margin-top: 5px; }
+.ticket__times b { font-family: var(--font-serif); font-size: 1.6rem; font-weight: 500; letter-spacing: -.03em; }
+.ticket__times i { color: var(--faint); font-style: normal; font-family: var(--font-mono); font-size: .7rem; }
+.ticket__times span { color: var(--muted); font-size: .72rem; }
+.ticket__price { text-align: right; }
+.ticket__price b { display: block; font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500; letter-spacing: -.02em; }
+.ticket__price span { display: block; color: var(--faint); font-size: .64rem; margin-top: 2px; }
+.ticket__note { grid-column: 1 / -1; color: var(--muted); font-size: .7rem; line-height: 1.65; border-top: 1px dashed var(--line); padding-top: 10px; }
+.ticket--alert { border-color: #d8a28f; background: #fdf5f1; }
+.ticket--alert .ticket__no { background: var(--red); }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 13px 16px; text-align: left; border-bottom: 1px solid var(--line); font-size: .78rem; vertical-align: top; }
+th { background: var(--paper-2); color: var(--faint); font-family: var(--font-mono); font-size: .6rem; letter-spacing: .08em; font-weight: 500; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.total td { background: var(--paper-2); font-weight: 600; border-top: 2px solid var(--ink); }
+.note { color: var(--faint); font-size: .7rem; line-height: 1.8; margin-top: 12px; }
+
+.two-col { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 22px; }
+.two-col .callout { margin-top: 0; }
+
+/* ---------- lodging ---------- */
+.stay-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.stay {
+  position: relative; display: flex; flex-direction: column;
+  padding: 26px 26px 24px;
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+.stay--best { border-color: var(--pine-3); box-shadow: 0 0 0 1px var(--pine-3), var(--shadow-md); background: linear-gradient(180deg, #eef6f0 0%, var(--paper) 58%); }
+.stay__tag {
+  position: absolute; top: -11px; left: 20px;
+  background: var(--pine-3); color: #fff;
+  padding: 3px 10px; border-radius: 999px;
+  font-size: .62rem; letter-spacing: .08em;
+}
+.stay__label { color: var(--faint); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .08em; margin-bottom: 7px; }
+.stay h3 { font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500; letter-spacing: -.02em; }
+.stay__price { margin: 14px 0 4px; font-family: var(--font-serif); font-size: 2.2rem; line-height: 1; letter-spacing: -.035em; }
+.stay__price small { font-family: var(--font-sans); color: var(--faint); font-size: .7rem; letter-spacing: 0; }
+.stay__formula { color: var(--faint); font-family: var(--font-mono); font-size: .65rem; line-height: 1.7; border-bottom: 1px solid var(--line); padding-bottom: 14px; margin-bottom: 14px; }
+.stay ul { display: grid; gap: 8px; margin-bottom: 18px; }
+.stay li { position: relative; padding-left: 15px; color: var(--muted); font-size: .8rem; line-height: 1.7; }
+.stay li::before { content: ""; position: absolute; left: 0; top: .7em; width: 5px; height: 5px; border-radius: 50%; background: var(--line-dark); }
+.stay--best li::before { background: var(--pine-3); }
+.stay__verdict { margin-top: auto; padding-top: 14px; border-top: 1px dashed var(--line); color: var(--ink-soft); font-size: .76rem; line-height: 1.75; }
+.stay__verdict b { color: var(--pine-3); }
+
+.info-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 22px; }
+.info { padding: 20px; background: var(--paper-2); border-radius: 12px; }
+.info span { display: block; color: var(--orange); font-family: var(--font-mono); font-size: .6rem; letter-spacing: .1em; margin-bottom: 7px; }
+.info b { display: block; font-size: .84rem; margin-bottom: 5px; }
+.info p { color: var(--muted); font-size: .74rem; line-height: 1.75; }
+
+/* ---------- budget ---------- */
+.budget-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(300px, .65fr); gap: 20px; align-items: start; }
+.budget-card {
+  background: var(--pine); color: #f6f3ea;
+  border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow-md);
+}
+.budget-card__label { color: rgba(246,243,234,.48); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .13em; }
+.budget-card__value { font-family: var(--font-serif); font-size: clamp(2.8rem, 5vw, 4rem); line-height: 1; letter-spacing: -.045em; margin: 12px 0 6px; }
+.budget-card__sub { color: rgba(246,243,234,.62); font-size: .74rem; }
+.budget-bar { display: flex; height: 8px; border-radius: 99px; overflow: hidden; margin: 24px 0 12px; background: rgba(255,255,255,.12); }
+.budget-bar span { display: block; height: 100%; }
+.budget-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px 12px; }
+.budget-legend span { display: flex; align-items: center; gap: 6px; color: rgba(246,243,234,.63); font-size: .68rem; }
+.budget-legend i { width: 7px; height: 7px; border-radius: 2px; flex: 0 0 auto; }
+.budget-card ul { display: grid; gap: 8px; margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(246,243,234,.15); }
+.budget-card li { position: relative; padding-left: 13px; color: rgba(246,243,234,.66); font-size: .7rem; line-height: 1.7; }
+.budget-card li::before { content: ""; position: absolute; left: 0; top: .68em; width: 4px; height: 4px; border-radius: 50%; background: #e2a35f; }
+
+.sensitivity { margin-top: 26px; }
+.sensitivity h3 { font-family: var(--font-serif); font-size: 1.4rem; font-weight: 500; letter-spacing: -.02em; margin-bottom: 12px; }
+
+/* ---------- action ---------- */
+.action-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 20px; align-items: start; }
+.checklist, .packing {
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow-sm); padding: 24px;
+}
+.checklist__head, .packing__head {
+  color: var(--orange); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .12em;
+  padding-bottom: 12px; border-bottom: 1px solid var(--line); margin-bottom: 4px;
+}
+.check { display: grid; grid-template-columns: 20px minmax(0, 1fr); gap: 11px; padding: 12px 0; border-bottom: 1px dashed var(--line); }
+.check:last-child { border-bottom: 0; }
+.check__box { width: 17px; height: 17px; border: 1px solid var(--line-dark); border-radius: 4px; margin-top: 2px; display: grid; place-items: center; color: var(--pine-3); font-size: .65rem; }
+.check b { display: block; font-size: .8rem; margin-bottom: 2px; }
+.check p { color: var(--muted); font-size: .73rem; line-height: 1.65; }
+.packing-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px 16px; padding-top: 12px; }
+.packing-list li { position: relative; padding-left: 13px; color: var(--muted); font-size: .75rem; line-height: 1.7; }
+.packing-list li::before { content: "·"; position: absolute; left: 0; color: var(--orange); font-weight: 700; }
+.packing__note { margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--line); color: var(--faint); font-size: .7rem; line-height: 1.75; }
+.packing__doc { margin-top: 14px; padding: 12px 14px; background: var(--paper-2); border-radius: 8px; }
+.packing__doc b { display: block; color: var(--ink); font-size: .72rem; margin-bottom: 3px; }
+.packing__doc p { color: var(--muted); font-size: .7rem; line-height: 1.65; }
+
+.plan-b { margin-top: 26px; }
+.plan-b h3 { font-family: var(--font-serif); font-size: 1.45rem; font-weight: 500; letter-spacing: -.02em; margin-bottom: 12px; }
+.plan-b__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.plan-b__item { padding: 17px 18px; background: #fbf0ec; border: 1px solid #e5c8bd; border-radius: 10px; }
+.plan-b__item b { display: block; font-size: .78rem; color: var(--red); margin-bottom: 4px; }
+.plan-b__item p { color: var(--ink-soft); font-size: .73rem; line-height: 1.7; }
+
+/* ---------- footer ---------- */
+.footer { background: #0b241f; color: rgba(246,243,234,.7); padding: 54px 0 28px; }
+.footer__grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 40px; }
+.footer h3 { color: #f6f3ea; font-family: var(--font-mono); font-size: .64rem; letter-spacing: .12em; font-weight: 500; margin-bottom: 14px; }
+.footer p { font-size: .74rem; line-height: 1.9; }
+.footer a { color: rgba(246,243,234,.82); text-decoration: none; border-bottom: 1px solid rgba(246,243,234,.2); }
+.footer a:hover { color: #fff; border-bottom-color: rgba(246,243,234,.6); }
+.footer__links { display: grid; gap: 7px; font-size: .72rem; line-height: 1.6; }
+.footer__bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-top: 36px; padding-top: 18px; border-top: 1px solid rgba(246,243,234,.14); color: rgba(246,243,234,.38); font-family: var(--font-mono); font-size: .6rem; letter-spacing: .05em; }
+.footer__bottom a { color: rgba(246,243,234,.55); }
+
+/* ---------- responsive ---------- */
+@media (max-width: 1020px) {
+  .hero__stamp { display: none; }
+  .hero__note { display: none; }
+  .section__head { grid-template-columns: 110px minmax(0, 1fr); gap: 18px; }
+  .verdict { grid-template-columns: 1fr; gap: 22px; }
+  .verdict__aside { border-left: 0; border-top: 2px solid var(--orange); padding: 16px 0 0; }
+  .timeline { grid-template-columns: 1fr; }
+  .day__body { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 22px; }
+  .event { grid-template-columns: 46px minmax(0, 1fr); }
+  .ticket-grid { grid-template-columns: 1fr; }
+  .ticket--wide { grid-column: span 1; }
+  .budget-grid { grid-template-columns: 1fr; }
+  .action-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 760px) {
+  .wrap { width: min(100% - 34px, 680px); }
+  .budget-grid table { table-layout: fixed; }
+  .budget-grid table th:nth-child(1), .budget-grid table td:nth-child(1) { width: 31%; }
+  .budget-grid table th:nth-child(2), .budget-grid table td:nth-child(2) { width: 17%; }
+  .budget-grid table th:nth-child(3), .budget-grid table td:nth-child(3) { width: 52%; }
+  .budget-grid table th, .budget-grid table td { padding: 10px 8px; font-size: .7rem; line-height: 1.6; }
+  .hero { min-height: 740px; }
+  .hero__nav { padding-top: 18px; }
+  .nav__links { display: none; }
+  .hero__inner { padding-top: 62px; }
+  .hero h1 { font-size: clamp(3rem, 14vw, 4.6rem); }
+  .hero__sub { font-size: .86rem; line-height: 1.85; }
+  .hero__meta { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 32px; }
+  .hero__meta > div:nth-child(2n) { border-right: 0; }
+  .hero__meta > div { padding: 13px 12px 12px 0; }
+  .hero__meta b { font-size: .78rem; }
+  .section { padding: 64px 0; }
+  .section__head { grid-template-columns: 1fr; gap: 8px; margin-bottom: 30px; }
+  .section__index { padding-top: 0; }
+  .section h2 { font-size: clamp(1.95rem, 9vw, 2.9rem); }
+  .section__lead { font-size: .84rem; line-height: 1.85; }
+  .score-grid { grid-template-columns: 1fr; }
+  .quick-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rules { grid-template-columns: 1fr; gap: 10px; }
+  .day__body { display: block; }
+  .two-col { grid-template-columns: 1fr; }
+  .stay-grid { grid-template-columns: 1fr; }
+  .info-grid { grid-template-columns: 1fr; }
+  .budget-card { padding: 24px 22px; }
+  .budget-legend { grid-template-columns: 1fr 1fr; }
+  .plan-b__grid { grid-template-columns: 1fr; }
+  .packing-list { grid-template-columns: 1fr 1fr; }
+  .footer__grid { grid-template-columns: 1fr; gap: 28px; }
+  .footer__bottom { flex-direction: column; gap: 8px; }
+}
+
+@media (max-width: 430px) {
+  .hero__actions { gap: 9px; }
+  .btn { min-height: 42px; padding: 0 16px; font-size: .74rem; }
+  .quick-grid b { font-size: 1.25rem; }
+  .ticket { padding: 17px 16px; grid-template-columns: 1fr; gap: 8px; }
+  .ticket__price { text-align: left; display: flex; align-items: baseline; gap: 8px; }
+  .ticket__price b { font-size: 1.2rem; }
+  .ticket__price span { margin: 0; }
+  .ticket__note { padding-top: 8px; }
+  .packing-list { grid-template-columns: 1fr; }
+  th, td { padding: 11px 12px; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<header class="hero">
+  <nav class="hero__nav wrap" aria-label="页面导航">
+    <a class="brand" href="#top">
+      <span class="brand__mark">CL</span>
+      <span>周末档案 / 2026–27</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="#verdict"><span class="nav__index">01</span>结论</a></li>
+      <li><a href="#timeline"><span class="nav__index">02</span>时间轴</a></li>
+      <li><a href="#trains"><span class="nav__index">03</span>车票</a></li>
+      <li><a href="#lodging"><span class="nav__index">04</span>住滑</a></li>
+      <li><a href="#budget"><span class="nav__index">05</span>账单</a></li>
+      <li><a href="#action"><span class="nav__index">06</span>执行</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero__inner wrap" id="top">
+    <p class="eyebrow">Solo weekend · Hangzhou → Beijing → Chongli</p>
+    <h1>周五下班，<br><em>去崇礼</em>。</h1>
+    <p class="hero__sub">
+      杭州东 18:48 → 北京南 23:49；北京睡一晚，周六早班动车到太子城。
+      雪如意住一晚，两张票分两天用。周日晚 23:21 回杭州东。
+      <strong>约 53 小时，2 个雪日，预算约 ¥2,900。</strong>
+    </p>
+
+    <div class="hero__meta" aria-label="行程概览">
+      <div>
+        <span>WINDOW</span>
+        <b>周五 18:00 — 周日 23:21</b>
+      </div>
+      <div>
+        <span>PARTY</span>
+        <b>1 人 / solo</b>
+      </div>
+      <div>
+        <span>SKI</span>
+        <b>雪如意 · 2 天</b>
+      </div>
+      <div>
+        <span>BUDGET</span>
+        <b>约 ¥2,900</b>
+      </div>
+    </div>
+
+    <div class="hero__actions">
+      <a class="btn btn--light" href="#verdict">先看结论</a>
+      <a class="btn btn--ghost" href="#budget">跳到账单</a>
+    </div>
+  </div>
+
+  <div class="hero__stamp" aria-hidden="true">
+    <span>CHONGLI<br>ELEV. 2,100M<br>SOLO / 26–27</span>
+  </div>
+  <div class="hero__note" aria-hidden="true">A WEEKEND, NOT A VACATION</div>
+
+  <div class="hero__mountain" aria-hidden="true">
+    <svg viewBox="0 0 1440 420" role="presentation">
+      <defs>
+        <linearGradient id="mBack" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#2f6b5e"/>
+          <stop offset="1" stop-color="#174b40"/>
+        </linearGradient>
+        <linearGradient id="mMid" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#15463c"/>
+          <stop offset="1" stop-color="#0e332c"/>
+        </linearGradient>
+        <linearGradient id="mFront" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#0a241f"/>
+          <stop offset="1" stop-color="#071b17"/>
+        </linearGradient>
+      </defs>
+      <circle cx="1136" cy="82" r="128" fill="#b8dfe8" opacity=".08"/>
+      <circle cx="1136" cy="82" r="34" fill="#d9eef1" opacity=".78"/>
+      <circle cx="1136" cy="82" r="49" fill="none" stroke="#d9eef1" stroke-opacity=".18"/>
+
+      <path d="M0 280 118 212 206 258 326 164 432 238 524 138 640 244 758 176 874 264 988 192 1096 254 1218 172 1322 242 1440 186V420H0Z" fill="url(#mBack)" opacity=".68"/>
+      <path d="M0 326 102 274 214 316 326 232 446 306 556 218 676 314 794 246 914 322 1030 260 1146 318 1266 242 1368 300 1440 264V420H0Z" fill="url(#mMid)"/>
+      <path d="M0 368 130 314 244 356 370 282 496 350 614 296 746 362 870 304 1006 364 1128 306 1252 358 1362 314 1440 344V420H0Z" fill="url(#mFront)"/>
+
+      <path d="M524 138 560 218 524 204 504 216 486 198Z" fill="#d9eef1" opacity=".24"/>
+      <path d="M1218 172 1256 240 1218 226 1200 238 1182 222Z" fill="#d9eef1" opacity=".18"/>
+      <path d="M326 164 358 232 326 218 308 230 292 214Z" fill="#d9eef1" opacity=".16"/>
+
+      <path d="M158 314 526 248" stroke="#d9eef1" stroke-opacity=".2" stroke-width="1.3"/>
+      <path d="M158 314v-25M526 248v-25" stroke="#d9eef1" stroke-opacity=".2" stroke-width="1.1"/>
+      <circle cx="250" cy="297" r="3.5" fill="#d9eef1" opacity=".3"/>
+      <circle cx="344" cy="280" r="3.5" fill="#d9eef1" opacity=".3"/>
+      <circle cx="438" cy="263" r="3.5" fill="#d9eef1" opacity=".3"/>
+
+      <path d="M0 400C180 374 298 416 470 398c172-18 286 18 448 4 170-14 326-36 522-18v36H0Z" fill="#f6f3ea"/>
+    </svg>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- =========================================================
+     01 VERDICT
+     ========================================================= -->
+<section class="section section--paper" id="verdict">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">01 <span>/</span> 先说结论</div>
+      <div>
+        <h2>能成，<em>但别误车</em>。</h2>
+        <p class="section__lead">
+          这不是一个松弛的滑雪周末，是一张精确到小时的时刻表。
+          两个硬约束：<strong>南京南 29 分钟换乘</strong>；<strong>周日 14:52 从太子城上车</strong>。
+        </p>
+      </div>
+    </div>
+
+    <div class="verdict reveal">
+      <p class="verdict__text">
+        周五 18:00 下班，<br>
+        周日 23:21 到杭州东。<br>
+        <strong>53 小时</strong>，<br>
+        2 个雪日，约 ¥2,900。
+      </p>
+      <aside class="verdict__aside">
+        <p><strong>值得去，但要按“赶车模式”执行。</strong>周五 23:49 到北京，周六 6:15 起床；
+        周日滑到 13:20，13:30 必须下山。能滑，但不会轻松。</p>
+      </aside>
+    </div>
+
+    <div class="score-grid reveal">
+      <article class="score">
+        <div class="score__top">
+          <span class="score__label">FEASIBILITY / 可行性</span>
+          <b class="score__num">8<small>/10</small></b>
+        </div>
+        <p>车次能接上，雪如意套餐能覆盖两天。扣分项：南京南换乘只有 29 分钟，周日返程没有冗余。</p>
+        <p class="tiny">最脆的一环：G7482 晚点超过 10 分钟。</p>
+      </article>
+      <article class="score">
+        <div class="score__top">
+          <span class="score__label">ENERGY / 体力</span>
+          <b class="score__num">6<small>/10</small></b>
+        </div>
+        <p>周五深夜到北京，周六早起；周日滑半天再赶 4 小时高铁。两天都能滑，但周一大概率废掉。</p>
+        <p class="tiny">建议周五、周六早睡，别安排夜生活。</p>
+      </article>
+      <article class="score">
+        <div class="score__top">
+          <span class="score__label">VALUE / 性价比</span>
+          <b class="score__num">9<small>/10</small></b>
+        </div>
+        <p>按 ¥600 算的住滑套餐覆盖 1 晚 + 2 张全雪域票 + 酒店至雪场大巴 + 高铁接驳，是这趟周末成立的核心。</p>
+        <p class="tiny">雪票已含，不需要再单买。</p>
+      </article>
+    </div>
+
+    <div class="quick-grid reveal" aria-label="关键时间">
+      <div><span>FRI / 出发</span><b>18:48</b><small>杭州东 G7482</small></div>
+      <div><span>SAT / 上山</span><b>07:29</b><small>北京北 G7831</small></div>
+      <div><span>SUN / 底线</span><b>14:52</b><small>太子城 D9266</small></div>
+      <div><span>SUN / 回杭</span><b>19:04</b><small>北京南 G49</small></div>
+    </div>
+
+    <div class="callout callout--red reveal">
+      <span class="callout__label">最优先</span>
+      <strong>南京南 29 分钟换乘是全程唯一不能出错的环节。</strong>
+      G7482 19:58 到，G32 20:27 开；同站换乘，别出站，跟着“便捷换乘”走。
+      如果你能提前下班，直接买杭州东 18:00 的 G46/G38 到北京南，少一次换乘，稳得多。
+    </div>
+
+    <div class="rules reveal">
+      <div class="rule">
+        <span class="rule__num">RULE 01</span>
+        <strong>周五住北京北，不住北京南。</strong>
+        <p>周六 07:29 的车从北京北走。住西直门/北京北步行圈，早上走过去；住北京南要 6:30 横穿京城。</p>
+      </div>
+      <div class="rule">
+        <span class="rule__num">RULE 02</span>
+        <strong>周六 07:29 是黄金班次。</strong>
+        <p>08:52 到太子城，10:15 能上雪。晚一班 09:40 的 D9263，少滑近 2 小时。</p>
+      </div>
+      <div class="rule">
+        <span class="rule__num">RULE 03</span>
+        <strong>周日 14:52 是底线。</strong>
+        <p>错过 D9266，下一班 18:05 到清河 19:10，G49 已经走了。只能改飞或北京住一晚。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     02 TIMELINE
+     ========================================================= -->
+<section class="section" id="timeline">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">02 <span>/</span> 53 小时</div>
+      <div>
+        <h2>三段路，<br>每一段都<em>卡点</em>。</h2>
+        <p class="section__lead">
+          周五赶路，周六滑雪，周日滑雪 + 赶路。真正在雪上的时间约 <strong>11 小时</strong>；
+          剩下的是高铁、接驳和睡觉。
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline reveal">
+      <article class="day">
+        <div class="day__head">
+          <span>FRI / 周五</span>
+          <h3>下班 → 北京</h3>
+          <b>5h01 · 换乘 29 分钟</b>
+        </div>
+        <div class="day__body">
+          <div class="event">
+            <time>18:00</time>
+            <div><b>下班，直接去杭州东</b><p>别回公司拿东西；18:25 前到东站，留 20 分钟进站。</p></div>
+          </div>
+          <div class="event event--key">
+            <time>18:48</time>
+            <div><b>G7482 杭州东 → 南京南</b><p>19:58 到。下车走“便捷换乘”，不要出站。</p></div>
+          </div>
+          <div class="event event--key">
+            <time>20:27</time>
+            <div><b>G32 南京南 → 北京南</b><p>23:49 到。29 分钟换乘，是本程最紧的一段。</p></div>
+          </div>
+          <div class="event">
+            <time>00:30</time>
+            <div><b>打车到西直门 / 北京北</b><p>23:49 后地铁基本停运，直接网约车，约 30–40 分钟。</p></div>
+          </div>
+          <div class="event">
+            <time>01:00</time>
+            <div><b>入住</b><p>订 24 小时前台的酒店；睡前把周六的票和身份证放一起。</p></div>
+          </div>
+          <div class="event">
+            <time>01:30</time>
+            <div><b>睡下</b><p>闹钟 06:15；实际睡眠不到 5 小时。</p></div>
+          </div>
+        </div>
+        <div class="day__foot">杭州东 → 北京南 · 5h01 · 联程 ¥636</div>
+      </article>
+
+      <article class="day">
+        <div class="day__head">
+          <span>SAT / 周六</span>
+          <h3>北京 → 雪如意</h3>
+          <b>2 段车 · 约 6h15 在雪上</b>
+        </div>
+        <div class="day__body">
+          <div class="event">
+            <time>06:15</time>
+            <div><b>起床，06:50 出门</b><p>早餐前一晚买好；北京北站步行 10 分钟内最稳。</p></div>
+          </div>
+          <div class="event event--key">
+            <time>07:29</time>
+            <div><b>G7831 北京北 → 太子城</b><p>08:52 到，二等座 ¥99。经过八达岭，周末人多。</p></div>
+          </div>
+          <div class="event">
+            <time>09:20</time>
+            <div><b>接驳到雪如意</b><p>套餐含高铁接驳；出站找酒店接驳牌，约 20–30 分钟。</p></div>
+          </div>
+          <div class="event">
+            <time>09:50</time>
+            <div><b>寄存行李，领票，换装</b><p>酒店 14:00 才能入住；先寄存，直接去雪场。</p></div>
+          </div>
+          <div class="event event--ski">
+            <time>10:15</time>
+            <div><b>开滑</b><p>周六滑到 16:30，约 6h15。中午在雪场快速吃。</p></div>
+          </div>
+          <div class="event">
+            <time>17:00</time>
+            <div><b>入住，晚餐，早睡</b><p>问前台周日 14:00–14:10 的接驳车，提前约好并确认上车点。</p></div>
+          </div>
+          <div class="event">
+            <time>21:30</time>
+            <div><b>睡下</b><p>周日 07:00 起；行李前一晚收好，别早上找东西。</p></div>
+          </div>
+        </div>
+        <div class="day__foot">北京北 → 太子城 · 1h23 · 雪如意套餐 ¥600</div>
+      </article>
+
+      <article class="day">
+        <div class="day__head">
+          <span>SUN / 周日</span>
+          <h3>滑雪 → 杭州</h3>
+          <b>硬停 13:30 · G49 4h17</b>
+        </div>
+        <div class="day__body">
+          <div class="event">
+            <time>07:00</time>
+            <div><b>起床，收行李</b><p>板包、雪服、充电宝先归位；退房后寄存前台。</p></div>
+          </div>
+          <div class="event">
+            <time>07:30</time>
+            <div><b>早餐，08:15 去雪场</b><p>早上先退房，行李寄存前台；雪服穿好再过去。</p></div>
+          </div>
+          <div class="event event--ski">
+            <time>08:30</time>
+            <div><b>开滑</b><p>滑到 13:20，约 4h50。11:30 快速吃午饭，别拖到 12:30。</p></div>
+          </div>
+          <div class="event event--key">
+            <time>13:30</time>
+            <div><b>必须下山</b><p>回酒店取行李/换衣服；目标 14:00 上车，最晚 14:10，别赌最后一班。</p></div>
+          </div>
+          <div class="event event--key">
+            <time>14:52</time>
+            <div><b>D9266 太子城 → 清河</b><p>16:08 到，二等座 ¥74。下一班 18:05 就赶不上 G49 了。</p></div>
+          </div>
+          <div class="event">
+            <time>17:15</time>
+            <div><b>清河 → 北京南</b><p>16:08 到，17:15 左右到北京南；地铁 13→4 约 55 分钟，打车约 40 分钟。</p></div>
+          </div>
+          <div class="event event--key">
+            <time>19:04</time>
+            <div><b>G49 北京南 → 杭州东</b><p>23:21 到。票价浮动，按 ¥700 估；这是当晚最合适的末班快车。</p></div>
+          </div>
+          <div class="event">
+            <time>23:30</time>
+            <div><b>杭州东 → 家</b><p>地铁可能已经停运，直接打车；周一还要上班。</p></div>
+          </div>
+        </div>
+        <div class="day__foot">太子城 → 清河 · 1h16 · 北京南 → 杭州东 · 4h17</div>
+      </article>
+    </div>
+
+    <div class="callout callout--blue reveal">
+      <span class="callout__label">住哪里</span>
+      <strong>周五住北京北，不要住北京南。</strong>
+      北京南附近可能便宜几十块，但周六 6:30 要横穿北京，打车 30–40 分钟；北京北步行到站，早上更稳。
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     03 TRAINS
+     ========================================================= -->
+<section class="section section--paper" id="trains">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">03 <span>/</span> 车票</div>
+      <div>
+        <h2>五段车，<br>一张<em>时刻表</em>。</h2>
+        <p class="section__lead">
+          前两段按你查的联程价 <strong>¥636</strong>；北京北—太子城 <strong>¥99</strong>；
+          太子城—清河 <strong>¥74</strong>；北京南—杭州东按 G49 浮动价 <strong>¥700</strong> 估。
+        </p>
+      </div>
+    </div>
+
+    <div class="ticket-grid reveal">
+      <article class="ticket">
+        <div class="ticket__main">
+          <div class="ticket__top"><span class="ticket__no">G7482</span><span class="ticket__label">FRI · LEG 01</span></div>
+          <div class="ticket__route"><b>杭州东</b><span>→</span><b>南京南</b></div>
+          <div class="ticket__times"><b>18:48</b><i>→</i><b>19:58</b><span>1h10</span></div>
+        </div>
+        <div class="ticket__price"><b>联程</b><span>¥636 / 两段</span></div>
+        <p class="ticket__note">和 G32 一起买；到南京南后走站内便捷换乘，不要出站。</p>
+      </article>
+
+      <article class="ticket ticket--alert">
+        <div class="ticket__main">
+          <div class="ticket__top"><span class="ticket__no">G32</span><span class="ticket__label">FRI · LEG 02 · 29 MIN</span></div>
+          <div class="ticket__route"><b>南京南</b><span>→</span><b>北京南</b></div>
+          <div class="ticket__times"><b>20:27</b><i>→</i><b>23:49</b><span>3h22</span></div>
+        </div>
+        <div class="ticket__price"><b>已含</b><span>在 ¥636 内</span></div>
+        <p class="ticket__note">全程最紧的一段。G7482 晚点超过 10 分钟，就直接看 G32 是否晚点/能否改签。</p>
+      </article>
+
+      <article class="ticket">
+        <div class="ticket__main">
+          <div class="ticket__top"><span class="ticket__no">G7831</span><span class="ticket__label">SAT · 黄金班次</span></div>
+          <div class="ticket__route"><b>北京北</b><span>→</span><b>太子城</b></div>
+          <div class="ticket__times"><b>07:29</b><i>→</i><b>08:52</b><span>1h23</span></div>
+        </div>
+        <div class="ticket__price"><b>¥99</b><span>二等座</span></div>
+        <p class="ticket__note">08:52 到，接驳后 10:15 能上雪。起不来可改 09:40 的 D9263，11:00 到，约 ¥79。</p>
+      </article>
+
+      <article class="ticket">
+        <div class="ticket__main">
+          <div class="ticket__top"><span class="ticket__no">D9266</span><span class="ticket__label">SUN · 底线班次</span></div>
+          <div class="ticket__route"><b>太子城</b><span>→</span><b>清河</b></div>
+          <div class="ticket__times"><b>14:52</b><i>→</i><b>16:08</b><span>1h16</span></div>
+        </div>
+        <div class="ticket__price"><b>¥74</b><span>二等座</span></div>
+        <p class="ticket__note">到清河后地铁去北京南。错过这班，下一班 18:05，G49 就赶不上了。</p>
+      </article>
+
+      <article class="ticket ticket--wide">
+        <div class="ticket__main">
+          <div class="ticket__top"><span class="ticket__no">G49</span><span class="ticket__label">SUN · 回杭州</span></div>
+          <div class="ticket__route"><b>北京南</b><span>→</span><b>杭州东</b></div>
+          <div class="ticket__times"><b>19:04</b><i>→</i><b>23:21</b><span>4h17 · 只停南京南</span></div>
+        </div>
+        <div class="ticket__price"><b>约 ¥700</b><span>二等座 · 浮动 666–780</span></div>
+        <p class="ticket__note">这是当晚最合适的末班快车。公布价 ¥780，实际常见 ¥666–700；周末票紧，开售就买，候补也排上。</p>
+      </article>
+    </div>
+
+    <div class="two-col reveal">
+      <div class="callout callout--red">
+        <span class="callout__label">南京南 29 分钟</span>
+        <strong>同站换乘够，但没有缓冲。</strong>
+        G7482 19:58 到，G32 20:27 开。下车别出站，跟着“便捷换乘”标识走；
+        带板包也来得及，但别在站台拍照。G7482 晚点超过 10 分钟，就开始想 Plan B。
+      </div>
+      <div class="callout callout--plain">
+        <span class="callout__label">北京南 23:49</span>
+        <strong>地铁基本停运，直接打车。</strong>
+        到西直门/北京北约 30–40 分钟，¥60–80。订酒店时确认前台 24 小时，
+        别订无人自助酒店；凌晨到店没人会很难受。
+      </div>
+    </div>
+
+    <div class="callout reveal">
+      <span class="callout__label">如果不想赌 29 分钟</span>
+      <strong>杭州东 18:00 有直达 G46/G38 到北京南 22:30 左右。</strong>
+      二等座约 ¥622–674，和你的联程差不多；少一次换乘、多 1 小时缓冲。
+      唯一条件是 17:20 前能到杭州东——如果你能提前下班，这是更稳的方案。
+    </div>
+
+    <p class="note">
+      车次/票价按 2026 年 11 月查询：G7831 二等座 ¥99，D9266 二等座 ¥74，G49 公布价 ¥780（浮动）。
+      你的杭州东—北京南联程按 ¥636 记。2027 年可能调图/调价，出发前以 12306 为准。
+    </p>
+  </div>
+</section>
+
+<!-- =========================================================
+     04 LODGING
+     ========================================================= -->
+<section class="section" id="lodging">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">04 <span>/</span> 住滑</div>
+      <div>
+        <h2>北京一晚，<br>雪如意<em>一晚</em>。</h2>
+        <p class="section__lead">
+          两晚两种功能：北京那晚是为了周六早上不慌；雪如意那晚是为了周日还能滑半天。
+          不需要在崇礼住两晚。
+        </p>
+      </div>
+    </div>
+
+    <div class="stay-grid reveal">
+      <article class="stay">
+        <div class="stay__label">FRI NIGHT / 北京</div>
+        <h3>北京北 / 西直门</h3>
+        <div class="stay__price">¥280–320<small> / 晚</small></div>
+        <div class="stay__formula">1 晚 · 步行 10 分钟到北京北 · 24h 前台</div>
+        <ul>
+          <li>周六 07:29 的车，住这里早上不用打车</li>
+          <li>连锁/民宿标间，按 ¥300 估</li>
+          <li>确认凌晨 1 点后还能入住</li>
+          <li>不要订北京南，早上横穿京城风险大</li>
+        </ul>
+        <p class="stay__verdict"><b>结论：</b>贵几十块，买的是周六早上的确定性。</p>
+      </article>
+
+      <article class="stay stay--best">
+        <span class="stay__tag">核心性价比</span>
+        <div class="stay__label">SAT NIGHT / 崇礼</div>
+        <h3>雪如意 · 睿景 / 维景</h3>
+        <div class="stay__price">¥600<small> / 晚</small></div>
+        <div class="stay__formula">1 晚 + 2 张全雪域票 + 酒店至雪场大巴 + 高铁接驳</div>
+        <ul>
+          <li>按你给的 ¥600 估；公开套餐 ¥699 起</li>
+          <li>2 张票可以一个人分两天用</li>
+          <li>含太子城站接驳 + 酒店至雪场大巴</li>
+          <li>一人住双人套餐，确认单房差/早餐</li>
+        </ul>
+        <p class="stay__verdict"><b>结论：</b>这趟周末能成立，主要靠这个套餐。雪票不用再单买。</p>
+      </article>
+    </div>
+
+    <div class="callout callout--plain reveal">
+      <span class="callout__label">套餐怎么用</span>
+      <strong>两张票分两天，不要周六一天刷完。</strong>
+      周六激活第一张，周日用第二张；带身份证，可能需要人脸/实名核验。
+      订之前确认：一人住双人套餐是否加单房差、是否含早、周六价是否按 ¥600（公开套餐 ¥699 起）。
+    </div>
+
+    <div class="info-grid reveal">
+      <div class="info">
+        <span>WHY NOT 2 NIGHTS</span>
+        <b>崇礼只住一晚</b>
+        <p>周日 14:52 就要上车，第二晚基本用不上。把住宿预算留给北京那晚，反而更稳。</p>
+      </div>
+      <div class="info">
+        <span>WHY BEIJING NORTH</span>
+        <b>北京北，不是北京南</b>
+        <p>北京南 23:49 到，打车到西直门约 30–40 分钟；周六早上走路去北京北，少一段不确定性。</p>
+      </div>
+      <div class="info">
+        <span>SHUTTLE</span>
+        <b>接驳是套餐的一部分</b>
+        <p>太子城站到酒店、酒店到雪场都有车。入住时问清周日 14:00–14:10 的班次和上车点，别临时找车。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     05 BUDGET
+     ========================================================= -->
+<section class="section section--paper" id="budget">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">05 <span>/</span> 账单</div>
+      <div>
+        <h2>约 <em>¥2,900</em>，<br>交通占一半。</h2>
+        <p class="section__lead">
+          按 1 人、2 晚、2 个雪日；装备自带，不含租赁和购物。
+          雪票已经含在 ¥600 套餐里，不再单列。
+        </p>
+      </div>
+    </div>
+
+    <div class="budget-grid reveal">
+      <div class="table-wrap">
+        <table aria-label="崇礼周末预算">
+          <thead>
+            <tr><th>项目</th><th class="num">金额</th><th>说明</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>杭州东 → 北京南</td><td class="num">¥636</td><td>G7482 + G32，按你查的联程价</td></tr>
+            <tr><td>北京北 1 晚</td><td class="num">¥300</td><td>西直门/北京北步行圈，按 ¥300 估</td></tr>
+            <tr><td>北京北 → 太子城</td><td class="num">¥99</td><td>G7831 二等座</td></tr>
+            <tr><td>雪如意 1 晚 + 2 票</td><td class="num">¥600</td><td>按你给的价；公开套餐 ¥699 起</td></tr>
+            <tr><td>吃 + 补给</td><td class="num">¥300</td><td>5 顿左右，山上餐饮偏贵</td></tr>
+            <tr><td>市内交通 / 接驳</td><td class="num">¥150</td><td>北京南打车、清河地铁、杭州东打车</td></tr>
+            <tr><td>太子城 → 清河</td><td class="num">¥74</td><td>D9266 二等座</td></tr>
+            <tr><td>北京南 → 杭州东</td><td class="num">¥700</td><td>G49，按浮动价 ¥700 估</td></tr>
+            <tr><td>保险 / 杂费</td><td class="num">¥50</td><td>滑雪意外险、寄存等</td></tr>
+            <tr class="total"><td>合计</td><td class="num">¥2,909</td><td>约 ¥2,850–3,050</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <aside class="budget-card">
+        <div class="budget-card__label">TOTAL / 1 PAX · 2 NIGHTS</div>
+        <div class="budget-card__value">¥2,909</div>
+        <div class="budget-card__sub">约 ¥2,850–3,050 · 每个雪日约 ¥1,455</div>
+        <div class="budget-bar" aria-hidden="true">
+          <span style="width:51.9%; background:#b8dfe8;"></span>
+          <span style="width:30.9%; background:#e2a35f;"></span>
+          <span style="width:10.3%; background:#9dc3b2;"></span>
+          <span style="width:5.2%; background:#d98b6a;"></span>
+          <span style="width:1.7%; background:#c9c2b2;"></span>
+        </div>
+        <div class="budget-legend">
+          <span><i style="background:#b8dfe8;"></i>交通 52%</span>
+          <span><i style="background:#e2a35f;"></i>住滑 31%</span>
+          <span><i style="background:#9dc3b2;"></i>吃 10%</span>
+          <span><i style="background:#d98b6a;"></i>市内 5%</span>
+          <span><i style="background:#c9c2b2;"></i>杂 2%</span>
+        </div>
+        <ul>
+          <li>雪票已含在 ¥600 套餐里，不另买</li>
+          <li>雪如意按 ¥600 估；公开套餐 ¥699 起</li>
+          <li>G49 按 ¥700 估，实际可能 ¥666–780</li>
+          <li>北京酒店按 ¥300 估，周末会浮动</li>
+          <li>装备自带；租板两天约 +¥400–600</li>
+        </ul>
+      </aside>
+    </div>
+
+    <div class="sensitivity reveal">
+      <h3>价格敏感度：哪一项最容易把预算推高？</h3>
+      <div class="table-wrap">
+        <table aria-label="预算敏感度">
+          <thead>
+            <tr><th>变量</th><th class="num">变化</th><th class="num">总价</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>G49 买到 ¥666</td><td class="num">−¥34</td><td class="num">约 ¥2,875</td></tr>
+            <tr><td>G49 按公布价 ¥780</td><td class="num">+¥80</td><td class="num">约 ¥2,989</td></tr>
+            <tr><td>雪如意按公开价 ¥699</td><td class="num">+¥99</td><td class="num">约 ¥3,008</td></tr>
+            <tr><td>雪如意周六涨到 ¥800</td><td class="num">+¥200</td><td class="num">约 ¥3,109</td></tr>
+            <tr><td>北京酒店涨到 ¥350</td><td class="num">+¥50</td><td class="num">约 ¥2,959</td></tr>
+            <tr><td>租板两天</td><td class="num">+¥400–600</td><td class="num">约 ¥3,309–3,509</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">价格为 2026 年 11 月查询/估算，雪季周末会浮动。出发前以 12306、酒店和雪场官方小程序为准。</p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     06 ACTION
+     ========================================================= -->
+<section class="section" id="action">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <div class="section__index">06 <span>/</span> 执行</div>
+      <div>
+        <h2>按这个顺序，<br>把票<em>锁死</em>。</h2>
+        <p class="section__lead">
+          先买车票，再订酒店和套餐。雪如意周六套餐和 G49 都比北京酒店更早卖完，
+          不要把顺序反过来。
+        </p>
+      </div>
+    </div>
+
+    <div class="action-grid reveal">
+      <div class="checklist">
+        <div class="checklist__head">BOOKING ORDER / 按顺序做</div>
+        <div class="check">
+          <span class="check__box">1</span>
+          <div><b>开售日：先买五段车</b><p>G7482+G32（接续换乘）、G7831、D9266、G49。G49 先候补也排上。</p></div>
+        </div>
+        <div class="check">
+          <span class="check__box">2</span>
+          <div><b>同一天：订北京北酒店</b><p>西直门/北京北步行 10 分钟，¥350–450；确认凌晨入住和 24h 前台。</p></div>
+        </div>
+        <div class="check">
+          <span class="check__box">3</span>
+          <div><b>同一天：订雪如意套餐</b><p>周六 1 晚；确认两票分两天、单房差、早餐、太子城接驳和周日 14:00–14:10 班车。</p></div>
+        </div>
+        <div class="check">
+          <span class="check__box">4</span>
+          <div><b>出发前 7 天：看天气和雪场</b><p>查雪道开放/赛事管控；买滑雪意外险；确认北京周六早上不封路。</p></div>
+        </div>
+        <div class="check">
+          <span class="check__box">5</span>
+          <div><b>出发前 1 天：打包 + 买早餐</b><p>板包、身份证、雪票二维码、充电宝；买好周六早上的面包/牛奶。</p></div>
+        </div>
+        <div class="check">
+          <span class="check__box">6</span>
+          <div><b>周五 18:00：下班直接走</b><p>18:25 前到杭州东；不要回公司拿东西，不要赌晚高峰。</p></div>
+        </div>
+      </div>
+
+      <div class="packing">
+        <div class="packing__head">PACK / 轻装但别漏</div>
+        <ul class="packing-list">
+          <li>雪板 / 雪鞋</li>
+          <li>头盔 / 雪镜</li>
+          <li>护具 / 护臀</li>
+          <li>雪服 / 雪裤</li>
+          <li>速干层 / 保暖层</li>
+          <li>手套 / 面罩</li>
+          <li>暖宝宝</li>
+          <li>充电宝 / 线</li>
+          <li>身份证</li>
+          <li>雪票二维码</li>
+          <li>能量胶 / 巧克力</li>
+          <li>小锁 / 板包</li>
+        </ul>
+        <div class="packing__doc">
+          <b>票务文件</b>
+          <p>5 段车票 + 酒店/套餐确认单，截图存相册；山里信号不好时也能打开。</p>
+        </div>
+        <p class="packing__note">
+          板包上高铁，尽量选大件行李区；南京南 29 分钟换乘走直梯，别拖板包跑楼梯。
+          不想拖板：雪如意租板约 ¥200–300/天，两天预算 +¥400–600。
+        </p>
+      </div>
+    </div>
+
+    <div class="plan-b reveal">
+      <h3>Plan B：如果有一班没接上</h3>
+      <div class="plan-b__grid">
+        <div class="plan-b__item">
+          <b>南京南没赶上 G32</b>
+          <p>G32 之后选择很少。改飞南京→北京，或南京住一晚、周六早上进京；后者会损失周六滑雪。</p>
+        </div>
+        <div class="plan-b__item">
+          <b>周日没赶上 D9266</b>
+          <p>下一班 18:05 到清河 19:10，G49 已走。改飞北京→杭州，或北京住一晚，周一 G39 07:56→12:33。</p>
+        </div>
+        <div class="plan-b__item">
+          <b>G49 没票</b>
+          <p>候补 + 北京住一晚，周一 G39；或周日下午 G37 16:05 回，但周日上午基本滑不了。</p>
+        </div>
+        <div class="plan-b__item">
+          <b>雪如意没房</b>
+          <p>住崇礼城区，单买雪票；预算 +¥200–400，接驳更麻烦。尽量先锁套餐。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout callout--red reveal">
+      <span class="callout__label">一句话</span>
+      <strong>这趟行程的关键不是滑得多好，是每一班车都别赌。</strong>
+      南京南少留 5 分钟、周日多滑 20 分钟，都可能把整个周末变成“在北京多住一晚”。
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <h3>数据与假设</h3>
+        <p>
+          个人周末计划，1 人、2 晚、2 个雪日，杭州出发。前两段按你查的联程价 ¥636；
+          G7831 二等座 ¥99；D9266 二等座 ¥74；G49 按浮动价 ¥700 估（公布价 ¥780）。
+          雪如意套餐按 ¥600 估（公开套餐 ¥699 起）；北京酒店按 ¥300 估。装备自带，不含租赁、购物、酒水。
+        </p>
+        <p style="margin-top: 12px; color: rgba(246,243,234,.42); font-size: .72rem;">
+          车次、票价和套餐价格会随日期/雪季调整。出发前以 12306、酒店和雪场官方小程序为准。
+        </p>
+      </div>
+      <div>
+        <h3>主要来源</h3>
+        <ul class="footer__links">
+          <li><a href="https://www.12306.cn/" target="_blank" rel="noopener">中国铁路 12306</a></li>
+          <li><a href="https://www.crecc.com/huoche/g7831.html" target="_blank" rel="noopener">G7831 时刻/票价</a></li>
+          <li><a href="https://www.crecc.com/huoche/d9266.html" target="_blank" rel="noopener">D9266 时刻/票价</a></li>
+          <li><a href="https://www.crecc.com/huoche/g49.html" target="_blank" rel="noopener">G49 时刻/票价</a></li>
+          <li><a href="http://piao.qunar.com/daytrip/detail_3418708.html?productId=1531979585" target="_blank" rel="noopener">雪如意住滑套餐参考</a></li>
+          <li><a href="https://www.bjsubway.com/" target="_blank" rel="noopener">北京地铁</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>杭州 → 北京 → 崇礼 · 2026–27 雪季 · 个人计划</span>
+      <span><a href="index.html">← 北大湖三人计划</a> · 未列入主页面导航</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+  document.documentElement.classList.add("js");
+
+  var bar = document.getElementById("progressBar");
+  function updateProgress() {
+    if (!bar) return;
+    var max = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = max > 0 ? Math.min(100, (window.scrollY / max) * 100) : 0;
+    bar.style.width = pct + "%";
+  }
+  window.addEventListener("scroll", updateProgress, { passive: true });
+  window.addEventListener("resize", updateProgress);
+  updateProgress();
+
+  var reveals = Array.prototype.slice.call(document.querySelectorAll(".reveal"));
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce || !("IntersectionObserver" in window)) {
+    reveals.forEach(function (el) { el.classList.add("is-visible"); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" });
+    reveals.forEach(function (el) { io.observe(el); });
+  }
+})();
+</script>
+</body>
+</html>
